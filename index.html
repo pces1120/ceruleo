@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="Cerúleo">
+    <meta name="description" content="Descripcion para SEO de Google">
+    <meta name="keywords" content="Cerúleo">
+    <meta name="author" content="Cerúleo">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+
+    <title>Cerúleo</title>
+  </head>
+  <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light" role="navigation">
+                <a class="navbar-brand" href="#" aria-label="Ir a página de inicio" onclick="scrollToAnchor('id0')">
+                    <img src="assets/images/logo.png" class="d-inline-block align-top" alt="Ceruleo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link white-text" href="#" onclick="scrollToAnchor('id1')">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text second-link" href="#" onclick="scrollToAnchor('id2')"><span>CERÚLEO</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text third-link" href="#" onclick="scrollToAnchor('id3')">HOLA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text thin-text" href="#">ENGLISH</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="brand-mobile">
+                    <a class="navbar-brand brand-mobile" href="#" aria-label="Ir a página de inicio" onclick="scrollToAnchor('id0')">
+                            <img src="assets/images/logo.png" class="d-inline-block align-top" alt="Ceruleo">
+                        </a>
+            </div>
+            <div id="menuToggle">
+                
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                <input type="checkbox" id="checkbox" />
+
+                <!--
+                Some spans to act as a hamburger.
+                
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="last-span"></span>
+
+                <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+                <ul id="menu">
+                    <a href="#" onclick="scrollToAnchor('id1')"><li class="bold-text">PORTFOLIO</li></a>
+                    <a href="#" onclick="scrollToAnchor('id2')"><hr><li class="bold-text">CERÚLEO</li><hr></a>
+                    <a href="#" onclick="scrollToAnchor('id3')"><li class="bold-text">HOLA</li></a>
+                    <a href="#"><li>ENGLISH</li></a>
+                </ul>
+            </div>
+        </header>
+        <section id="first-section" class="container-fluid cover-bg" name="id0">
+        </section>
+        <section id="second-section" class="container-fluid" name="id1">            
+                <div class="row justify-content-md-center">
+                    <div class="col-sm-4 col-lg-3 folios" >
+                        <article id="folio-1" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(0)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text">
+                                            2018
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role">EDITORIAL</p>
+                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-2" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(1)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text">
+                                            2018
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role">EDITORIAL</p>
+                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-3" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(2)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text">
+                                            2018
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role">EDITORIAL</p>
+                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-4" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(3)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text">
+                                            2018
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role">EDITORIAL</p>
+                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-5" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(4)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text">
+                                            2018
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role">EDITORIAL</p>
+                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-6" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(5)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text">
+                                            2018
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role">EDITORIAL</p>
+                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-7" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(6)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text">
+                                            2018
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role">EDITORIAL</p>
+                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-8" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(7)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text">
+                                            2018
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role">EDITORIAL</p>
+                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-9" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(8)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text">
+                                            2018
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role">EDITORIAL</p>
+                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-10" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(9)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text">
+                                            2018
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role">EDITORIAL</p>
+                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-11" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(10)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text">
+                                            2018
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role">EDITORIAL</p>
+                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-12" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(11)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text">
+                                            2018
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role">EDITORIAL</p>
+                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+        </section>
+        <section id="third-section" class="container-fluid cover-bg" name="id2">
+            <div class="container">          
+                <div class="row">                    
+                    <article class="col-12">
+                        <hr class="small-line">
+                        <img src="assets/images/logo.png" class="logo align-top" alt="Ceruleo">
+                        <p class="col-lg-5 studio-text white-text thin-text">
+                                Somos un estudio interdisciplinario con sede en Buenos Aires, Argentina. 
+                                Abarcamos diversos campos del diseño y la comunicación visual. 
+                                Contamos con un equipo de profesionales especializados en diferentes disciplinas, 
+                                lo que nos permite desarrollar cada proyecto adecuándonos a las necesidades y a los objetivos de nuestros clientes. <br><br>
+
+                                Conocer a nuestros clientes y trabajar junto a ellos es nuestra misión principal.<br><br>
+
+                                Nos especializamos en diseño editorial, publicaciones institucionales, 
+                                identidad corporativa, branding, packaging y diseño digital.
+                                 
+                        </p>
+                    </article>
+                    <div class="col-12 partners-data">
+                        <div class="col-lg-4 partners">
+                            <article class="column-right">
+                                <div>
+                                    <p class="white-text little bold-text">
+                                        DG 
+                                    </p>
+                                    <hr>
+                                </div>
+                            </article>
+                            <article>
+                                <p class="white-text role thin-text">DISEÑO GRÁFICO</p>
+                                <p class="white-text name thin-text">ALBERTO SCOTTI</p>
+                                <a href="mailto:alberto@estudioceruleo.com" class="white-text bold-text emailto">alberto@estudioceruleo.com</a>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 partners">
+                            <article class="column-right">
+                                <div>
+                                    <p class="white-text little bold-text">
+                                        DG 
+                                    </p>
+                                    <hr>
+                                </div>
+                            </article>
+                            <article>
+                                <p class="white-text role thin-text">DISEÑO GRÁFICO</p>
+                                <p class="white-text name thin-text">PABLO ALARCÓN</p>
+                                <a href="mailto:pablo@estudioceruleo.com" class="white-text bold-text emailto">pablo@estudioceruleo.com</a>
+                            </article>                                
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section id="fourth-section" class="container-fluid" name="id3">            
+            <div class="container">
+                <div class="row">
+                    <article class="col-12 title-hola">
+                        <hr>
+                        <p class="grey-text bold-text">HOLA</p>
+                    </article>
+                    <div class="col-10 partners partners2">
+                        <article class="column-right">
+                            <div>
+                                <p class="grey-text little bold-text center-text">
+                                    T 
+                                </p>
+                                <hr>
+                            </div>
+                            <div>
+                                    <p class="grey-text little bold-text center-text">
+                                        M 
+                                    </p>
+                                    <hr>
+                            </div>
+                        </article>
+                        <article>
+                            <p class="grey-text role">BUENOS AIRES</p>
+                            <p class="grey-text name thin-text">5411.4811.9802</p>
+                            <a href="mailto:hola@estudioceruleo.com" class="grey-text bold-text emailto">hola@estudioceruleo.com</a>
+                        </article>
+                    </div>
+                    <div class="col-2 center-text heart-column">
+                        <img src="assets/images/heart.PNG" class="heart align-center">
+                        <div class=" align-center social">
+                            <img src="assets/images/heart.PNG" class="heart heart-mobile">
+                            <a href="#"><img src="assets/images/insta.PNG"></a>
+                            <a href="#"><img src="assets/images/behance.PNG"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </section>
+        <footer class="container-fluid">    
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <div class="foot-div">
+                            <article class="foot-article">
+                                <p class="white-text little bold-text">
+                                        2018 
+                                </p>
+                                <hr>
+                            </article>
+                            <img src="assets/images/logo.png" class="logo align-top" alt="Ceruleo">
+                        </div>
+                    </div>
+                    <div class="col-5">
+                            <div class="foot-div foot-div-2">
+                                <article class="foot-article">
+                                    <p class="white-text little bold-text">
+                                            web 
+                                    </p>
+                                    <hr>
+                                </article>
+                                <p class="white-text" style="margin:0; font-size:14px;"><em>Pao</em></p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </footer>
+                <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document" id="mainModal">
+            
+
+
+          </div>
+        </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js" ></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+<script>
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            myFunction(this);
+        }
+    };
+    xhttp.open("GET", "assets/data/modal-es.xml", true);
+    xhttp.send();
+
+    function myFunction(xml) {
+        let xmlDoc = xml.responseXML,
+        firstsrc_0 = xmlDoc.getElementsByTagName("firstsrc_0"),
+        secondsrc_0 = xmlDoc.getElementsByTagName("secondsrc_0"),
+        thirdsrc_0 = xmlDoc.getElementsByTagName("thirdsrc_0"),
+        modalyear_0 = xmlDoc.getElementsByTagName("modalyear_0"),
+        modalvolanta_0 = xmlDoc.getElementsByTagName("modalvolanta_0"),
+        modaltitle_0 = xmlDoc.getElementsByTagName("modaltitle_0"),
+        modaltext_0 = xmlDoc.getElementsByTagName("modaltext_0");          
+        modalback_0 = xmlDoc.getElementsByTagName("modalback_0");
+
+        $("[template='firstsrc_0']").attr('src', firstsrc_0[0].childNodes[0].nodeValue);
+        $("[template='secondsrc_0']").attr('src', secondsrc_0[0].childNodes[0].nodeValue);
+        $("[template='thirdsrc_0']").attr('src', thirdsrc_0[0].childNodes[0].nodeValue);
+        $("[template='modalyear_0']").html(modalyear_0[0].childNodes[0].nodeValue);
+        $("[template='modalvolanta_0']").html(modalvolanta_0[0].childNodes[0].nodeValue);
+        $("[template='modaltitle_0']").html(modaltitle_0[0].childNodes[0].nodeValue);
+        $("[template='modaltext_0']").html(modaltext_0[0].childNodes[0].nodeValue);
+        $("[template='modalback_0']").html(modalback_0[0].childNodes[0].nodeValue);     
+
+    }
+</script>
+<div class="modal-content">
+    <div class="modal-body">
+          <section>
+              <img class="image-modal" template="firstsrc_0">
+              <img class="image-modal" template="secondsrc_0">
+              <img class="image-modal" template="thirdsrc_0">
+          </section>
+
+          <section class="container">
+              <div class="modal-text">
+                    <div class="partners">
+                        <article class="column-right">
+                            <div>
+                                <p class="black-text little bold-text center-text modal-year" template="modalyear_0">
+
+                                </p>
+                                <hr class="black-line">
+                            </div>
+                        </article>
+                        <article class="column-left">
+                            <p class="darkgrey-text role modal-volanta" template="modalvolanta_0"></p>
+                            <p class="darkgrey-text name modal-title" template="modaltitle_0"></p> 
+                            <p class="darkgrey-text description modal-desc" template="modaltext_0"></p>                                    
+                        </article>
+                    </div>
+                    <article class="row modalheader">
+                        <div class="col-9 align-bottom">
+                            <a class="goback" data-dismiss="modal">
+                                <img src="assets/images/back.png">
+                                <p class="black-text little bold-text" template="modalback_0"></p>
+                            </a>
+                        </div>
+                        <div class="col-3 center-text heart-column align-bottom">
+                            <div class="social">
+                                <a href="#"><img src="assets/images/insta.PNG"></a>
+                                <a href="#"><img src="assets/images/behance.PNG"></a>
+                            </div>
+                        </div>                                   
+                    </article>
+              </div>
+          </section>                  
+    </div>
+</div>
