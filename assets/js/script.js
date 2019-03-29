@@ -58,11 +58,6 @@
                     $('#mainModal').html(result);
                     $('#mainModal').fadeIn();
                     $("#modal").toggleClass('show');
-                    $('#first-section, #second-section, #third-section, #fourth-section, header, footer').css('pointer-events','none')
                 }
             });
         }
-
-        $('.goback').click(function(){
-            $('#first-section, #second-section, #third-section, #fourth-section, header, footer').css('pointer-events','all')
-        })
