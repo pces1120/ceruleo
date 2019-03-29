@@ -506,6 +506,9 @@ body.modal-open {
         position: relative;
         transform: rotate(90deg);
     }
+    .modal{
+        -webkit-overflow-scrolling: touch;
+    }
     .modal-text{
         padding: 25px 0px;
     }
