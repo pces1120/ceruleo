@@ -1,6 +1,6 @@
         var squares = $(".work-tab")
         $.each(squares, function (index, value) {
-            $(squares).bind('mouseenter mouseleave', function (event) {
+            $(squares).bind('mouseenter mouseleave click touch', function (event) {
                 if (event.type == 'mouseenter') {
                     $(this).addClass('partner-show')
                     if($('.work-tab').hasClass('partner-show')){
@@ -9,6 +9,8 @@
                     };
                 } else if (event.type == 'mouseleave') {
                     $(this).removeClass('partner-show');
+                }else if (event.type == 'click' || event.type == 'touchstart') {
+                    $("#exampleModal").modal("show");
                 }
             });
         });
