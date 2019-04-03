@@ -10,7 +10,9 @@
                 } else if (event.type == 'mouseleave') {
                     $(this).removeClass('partner-show');
                 }else if (event.type == 'click' || event.type == 'touchstart') {
+                    $(this).removeClass('partner-show');
                     $("#exampleModal").modal("show");
+                    
                 }
             });
         });
@@ -32,7 +34,7 @@
             }
         });
 
-        $(document).ready(function(){
+       /*$(document).ready(function(){
             $(window).scroll(function(){
                 var section_pos = $('#second-section').offset().top;
                 var section_height = $('#second-section').height();
@@ -46,7 +48,7 @@
                     $('#brand-mobile').css('opacity', '1');
                 }
             });
-        })
+        })*/
 
         
 

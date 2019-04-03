@@ -18,7 +18,7 @@
   </head>
   <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light" role="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top" role="navigation">
                 <a class="navbar-brand" href="#" aria-label="Ir a página de inicio" onclick="scrollToAnchor('id0')">
                     <img src="assets/images/logo.png" class="d-inline-block align-top" alt="Ceruleo">
                 </a>
@@ -39,41 +39,44 @@
                     </ul>
                 </div>
             </nav>
-            <div id="brand-mobile">
+            <div id="nav-mobile">
+                <div id="brand-mobile">
                     <a class="navbar-brand brand-mobile" href="#" aria-label="Ir a página de inicio" onclick="scrollToAnchor('id0')">
-                            <img src="assets/images/logo.png" class="d-inline-block align-top" alt="Ceruleo">
-                        </a>
-            </div>
-            <div id="menuToggle">
+                        <img src="assets/images/logo.png" class="d-inline-block align-top" alt="Ceruleo">
+                    </a>
+                </div>
+                <div id="menuToggle">
                 
-                <!--
-                A fake / hidden checkbox is used as click reciever,
-                so you can use the :checked selector on it.
-                -->
-                <input type="checkbox" id="checkbox" />
-
-                <!--
-                Some spans to act as a hamburger.
-                
-                They are acting like a real hamburger,
-                not that McDonalds stuff.
-                -->
-                <span></span>
-                <span></span>
-                <span></span>
-                <span class="last-span"></span>
-
-                <!--
-                Too bad the menu has to be inside of the button
-                but hey, it's pure CSS magic.
-                -->
-                <ul id="menu">
-                    <a href="#" onclick="scrollToAnchor('id1')"><li class="bold-text">PORTFOLIO</li></a>
-                    <a href="#" onclick="scrollToAnchor('id2')"><hr><li class="bold-text">CERÚLEO</li><hr></a>
-                    <a href="#" onclick="scrollToAnchor('id3')"><li class="bold-text">HOLA</li></a>
-                    <a href="#"><li>ENGLISH</li></a>
-                </ul>
-            </div>
+                    <!--
+                    A fake / hidden checkbox is used as click reciever,
+                    so you can use the :checked selector on it.
+                    -->
+                    <input type="checkbox" id="checkbox" />
+    
+                    <!--
+                    Some spans to act as a hamburger.
+                    
+                    They are acting like a real hamburger,
+                    not that McDonalds stuff.
+                    -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="last-span"></span>
+    
+                    <!--
+                    Too bad the menu has to be inside of the button
+                    but hey, it's pure CSS magic.
+                    -->
+                    <ul id="menu">
+                        <a href="#" onclick="scrollToAnchor('id1')"><li class="bold-text">PORTFOLIO</li></a>
+                        <a href="#" onclick="scrollToAnchor('id2')"><hr><li class="bold-text">CERÚLEO</li><hr></a>
+                        <a href="#" onclick="scrollToAnchor('id3')"><li class="bold-text">HOLA</li></a>
+                        <a href="#"><li>ENGLISH</li></a>
+                    </ul>
+                </div>
+            </div>        
+            
         </header>
         <section id="first-section" class="container-fluid cover-bg" name="id0">
         </section>
