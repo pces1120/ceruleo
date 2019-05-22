@@ -10,11 +10,13 @@
     <meta name="author" content="Cerúleo">
     <meta name="format-detection" content="telephone=no">
     <!-- Bootstrap CSS -->
+    <link rel='icon' href='favicon.ico' type='image/x-icon'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+    
 
-    <title>Cerúleo</title>
+    <title template="title_page"></title>
   </head>
   <body>
         <header>
@@ -25,16 +27,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link white-text" href="#" onclick="scrollToAnchor('id1')">PORTFOLIO</a>
+                            <a class="nav-link white-text" href="#" onclick="scrollToAnchor('id1')" template="nav_01"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link white-text second-link" href="#" onclick="scrollToAnchor('id2')"><span>CERÚLEO</span></a>
+                            <a class="nav-link white-text second-link" href="#" onclick="scrollToAnchor('id2')"><span template="nav_02"></span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link white-text third-link" href="#" onclick="scrollToAnchor('id3')">HOLA</a>
+                            <a class="nav-link white-text third-link" href="#" onclick="scrollToAnchor('id3')" template="nav_03"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link white-text thin-text" href="#">ENGLISH</a>
+                            <a class="nav-link white-text thin-text" href="#" onclick="changeLanguage()" template="nav_04"></a>
                         </li>
                     </ul>
                 </div>
@@ -69,10 +71,10 @@
                     but hey, it's pure CSS magic.
                     -->
                     <ul id="menu">
-                        <a href="#" onclick="scrollToAnchor('id1')"><li class="bold-text">PORTFOLIO</li></a>
-                        <a href="#" onclick="scrollToAnchor('id2')"><hr><li class="bold-text">CERÚLEO</li><hr></a>
-                        <a href="#" onclick="scrollToAnchor('id3')"><li class="bold-text">HOLA</li></a>
-                        <a href="#"><li>ENGLISH</li></a>
+                        <a href="#" onclick="scrollToAnchor('id1')"><li class="bold-text" template="nav_01"></li></a>
+                        <a href="#" onclick="scrollToAnchor('id2')"><hr><li class="bold-text" template="nav_02"></li><hr></a>
+                        <a href="#" onclick="scrollToAnchor('id3')"><li class="bold-text" template="nav_03"></li></a>
+                        <a href="#" onclick="changeLanguage()"><li template="nav_04"></li></a>
                     </ul>
                 </div>
             </div>        
@@ -87,15 +89,15 @@
                             <div class="partners partner-hide">
                                 <article class="column-right">
                                     <div>
-                                        <p class="white-text little bold-text center-text">
-                                            2018
+                                        <p class="white-text little bold-text center-text" template="portfolio_01_year">
+                                            
                                         </p>
                                         <hr>
                                     </div>
                                 </article>
                                 <article>
-                                    <p class="white-text role">EDITORIAL</p>
-                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                    <p class="white-text role" template="portfolio_01_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_01_name"></p>                                    
                                 </article>
                             </div>
                         </article>
@@ -105,15 +107,15 @@
                             <div class="partners partner-hide">
                                 <article class="column-right">
                                     <div>
-                                        <p class="white-text little bold-text center-text">
-                                            2018
+                                        <p class="white-text little bold-text center-text" template="portfolio_02_year">
+                                            
                                         </p>
                                         <hr>
                                     </div>
                                 </article>
                                 <article>
-                                    <p class="white-text role">EDITORIAL</p>
-                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                    <p class="white-text role" template="portfolio_02_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_02_name"></p>                                    
                                 </article>
                             </div>
                         </article>
@@ -123,15 +125,15 @@
                             <div class="partners partner-hide">
                                 <article class="column-right">
                                     <div>
-                                        <p class="white-text little bold-text center-text">
-                                            2018
+                                        <p class="white-text little bold-text center-text" template="portfolio_03_year">
+                                            
                                         </p>
                                         <hr>
                                     </div>
                                 </article>
                                 <article>
-                                    <p class="white-text role">EDITORIAL</p>
-                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                    <p class="white-text role" template="portfolio_03_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_03_name"></p>                                    
                                 </article>
                             </div>
                         </article>
@@ -141,15 +143,15 @@
                             <div class="partners partner-hide">
                                 <article class="column-right">
                                     <div>
-                                        <p class="white-text little bold-text center-text">
-                                            2018
+                                        <p class="white-text little bold-text center-text" template="portfolio_04_year">
+                                            
                                         </p>
                                         <hr>
                                     </div>
                                 </article>
                                 <article>
-                                    <p class="white-text role">EDITORIAL</p>
-                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                    <p class="white-text role" template="portfolio_04_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_04_name"></p>                                    
                                 </article>
                             </div>
                         </article>
@@ -159,15 +161,15 @@
                             <div class="partners partner-hide">
                                 <article class="column-right">
                                     <div>
-                                        <p class="white-text little bold-text center-text">
-                                            2018
+                                        <p class="white-text little bold-text center-text" template="portfolio_05_year">
+                                            
                                         </p>
                                         <hr>
                                     </div>
                                 </article>
                                 <article>
-                                    <p class="white-text role">EDITORIAL</p>
-                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                    <p class="white-text role" template="portfolio_05_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_05_name"></p>                                    
                                 </article>
                             </div>
                         </article>
@@ -177,15 +179,15 @@
                             <div class="partners partner-hide">
                                 <article class="column-right">
                                     <div>
-                                        <p class="white-text little bold-text center-text">
-                                            2018
+                                        <p class="white-text little bold-text center-text" template="portfolio_06_year">
+                                            
                                         </p>
                                         <hr>
                                     </div>
                                 </article>
                                 <article>
-                                    <p class="white-text role">EDITORIAL</p>
-                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                    <p class="white-text role" template="portfolio_06_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_06_name"></p>                                    
                                 </article>
                             </div>
                         </article>
@@ -195,15 +197,15 @@
                             <div class="partners partner-hide">
                                 <article class="column-right">
                                     <div>
-                                        <p class="white-text little bold-text center-text">
-                                            2018
+                                        <p class="white-text little bold-text center-text" template="portfolio_07_year">
+                                            
                                         </p>
                                         <hr>
                                     </div>
                                 </article>
                                 <article>
-                                    <p class="white-text role">EDITORIAL</p>
-                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                    <p class="white-text role" template="portfolio_07_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_07_name"></p>                                    
                                 </article>
                             </div>
                         </article>
@@ -213,15 +215,15 @@
                             <div class="partners partner-hide">
                                 <article class="column-right">
                                     <div>
-                                        <p class="white-text little bold-text center-text">
-                                            2018
+                                        <p class="white-text little bold-text center-text" template="portfolio_08_year">
+                                            
                                         </p>
                                         <hr>
                                     </div>
                                 </article>
                                 <article>
-                                    <p class="white-text role">EDITORIAL</p>
-                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                    <p class="white-text role" template="portfolio_08_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_08_name"></p>                                    
                                 </article>
                             </div>
                         </article>
@@ -231,15 +233,15 @@
                             <div class="partners partner-hide">
                                 <article class="column-right">
                                     <div>
-                                        <p class="white-text little bold-text center-text">
-                                            2018
+                                        <p class="white-text little bold-text center-text" template="portfolio_09_year">
+                                            
                                         </p>
                                         <hr>
                                     </div>
                                 </article>
                                 <article>
-                                    <p class="white-text role">EDITORIAL</p>
-                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                    <p class="white-text role" template="portfolio_09_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_09_name"></p>                                    
                                 </article>
                             </div>
                         </article>
@@ -249,15 +251,15 @@
                             <div class="partners partner-hide">
                                 <article class="column-right">
                                     <div>
-                                        <p class="white-text little bold-text center-text">
-                                            2018
+                                        <p class="white-text little bold-text center-text" template="portfolio_010_year">
+                                            
                                         </p>
                                         <hr>
                                     </div>
                                 </article>
                                 <article>
-                                    <p class="white-text role">EDITORIAL</p>
-                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                    <p class="white-text role" template="portfolio_010_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_010_name"></p>                                    
                                 </article>
                             </div>
                         </article>
@@ -267,15 +269,15 @@
                             <div class="partners partner-hide">
                                 <article class="column-right">
                                     <div>
-                                        <p class="white-text little bold-text center-text">
-                                            2018
+                                        <p class="white-text little bold-text center-text" template="portfolio_011_year">
+                                            
                                         </p>
                                         <hr>
                                     </div>
                                 </article>
                                 <article>
-                                    <p class="white-text role">EDITORIAL</p>
-                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                    <p class="white-text role" template="portfolio_011_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_011_name"></p>                                    
                                 </article>
                             </div>
                         </article>
@@ -285,15 +287,231 @@
                             <div class="partners partner-hide">
                                 <article class="column-right">
                                     <div>
-                                        <p class="white-text little bold-text center-text">
-                                            2018
+                                        <p class="white-text little bold-text center-text" template="portfolio_012_year">
+                                            
                                         </p>
                                         <hr>
                                     </div>
                                 </article>
                                 <article>
-                                    <p class="white-text role">EDITORIAL</p>
-                                    <p class="white-text name thin-text">Puerto de Palos</p>                                    
+                                    <p class="white-text role" template="portfolio_012_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_012_name"></p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios" >
+                        <article id="folio-13" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(12)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text" template="portfolio_013_year">
+                                            
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role" template="portfolio_013_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_013_name"></p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-14" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(13)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text" template="portfolio_014_year">
+                                            
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role" template="portfolio_014_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_014_name"></p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-15" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(14)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text" template="portfolio_015_year">
+                                            
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role" template="portfolio_015_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_015_name"></p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-16" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(15)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text" template="portfolio_016_year">
+                                            
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role" template="portfolio_016_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_016_name"></p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-17" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(16)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text" template="portfolio_017_year">
+                                            
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role" template="portfolio_017_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_017_name"></p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-18" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(17)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text" template="portfolio_018_year">
+                                            
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role" template="portfolio_018_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_018_name"></p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-19" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(18)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text" template="portfolio_019_year">
+                                            
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role" template="portfolio_019_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_019_name"></p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-20" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(19)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text" template="portfolio_020_year">
+                                            
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role" template="portfolio_020_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_020_name"></p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-21" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(20)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text" template="portfolio_021_year">
+                                            
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role" template="portfolio_021_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_021_name"></p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-22" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(21)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text" template="portfolio_022_year">
+                                            
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role" template="portfolio_022_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_022_name"></p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-23" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(22)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text" template="portfolio_023_year">
+                                            
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role" template="portfolio_023_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_023_name"></p>                                    
+                                </article>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 folios">
+                        <article id="folio-24" class="cover-bg align-center work-tab" data-toggle="modal" data-target="#exampleModal" onclick="whatever(23)">
+                            <div class="partners partner-hide">
+                                <article class="column-right">
+                                    <div>
+                                        <p class="white-text little bold-text center-text" template="portfolio_024_year">
+                                            
+                                        </p>
+                                        <hr>
+                                    </div>
+                                </article>
+                                <article>
+                                    <p class="white-text role" template="portfolio_024_type"></p>
+                                    <p class="white-text name thin-text" template="portfolio_024_name"></p>                                    
                                 </article>
                             </div>
                         </article>
@@ -306,16 +524,8 @@
                     <article class="col-12">
                         <hr class="small-line">
                         <img src="assets/images/logo.png" class="logo align-top" alt="Ceruleo">
-                        <p class="col-lg-5 studio-text white-text thin-text">
-                                Somos un estudio interdisciplinario con sede en Buenos Aires, Argentina. 
-                                Abarcamos diversos campos del diseño y la comunicación visual. 
-                                Contamos con un equipo de profesionales especializados en diferentes disciplinas, 
-                                lo que nos permite desarrollar cada proyecto adecuándonos a las necesidades y a los objetivos de nuestros clientes. <br><br>
-
-                                Conocer a nuestros clientes y trabajar junto a ellos es nuestra misión principal.<br><br>
-
-                                Nos especializamos en diseño editorial, publicaciones institucionales, 
-                                identidad corporativa, branding, packaging y diseño digital.
+                        <p class="col-lg-5 studio-text white-text thin-text" template="presentation_text">
+                                
                                  
                         </p>
                     </article>
@@ -323,31 +533,29 @@
                         <div class="col-lg-4 partners">
                             <article class="column-right">
                                 <div>
-                                    <p class="white-text little bold-text">
-                                        DG 
+                                    <p class="white-text little bold-text" template="presentation_initials_AS">
                                     </p>
                                     <hr>
                                 </div>
                             </article>
                             <article>
-                                <p class="white-text role thin-text">DISEÑO GRÁFICO</p>
+                                <p class="white-text role thin-text" template="presentation_role_AS"></p>
                                 <p class="white-text name thin-text">ALBERTO SCOTTI</p>
-                                <a href="mailto:alberto@estudioceruleo.com" class="white-text bold-text emailto">alberto@estudioceruleo.com</a>
+                                <a href="mailto:alberto@estudioceruleo.com?subject=Hola Alberto" class="white-text bold-text emailto">alberto@estudioceruleo.com</a>
                             </article>
                         </div>
                         <div class="col-lg-4 partners">
                             <article class="column-right">
                                 <div>
-                                    <p class="white-text little bold-text">
-                                        DG 
+                                    <p class="white-text little bold-text" template="presentation_initials_PA"> 
                                     </p>
                                     <hr>
                                 </div>
                             </article>
                             <article>
-                                <p class="white-text role thin-text">DISEÑO GRÁFICO</p>
+                                <p class="white-text role thin-text" template="presentation_role_PA"></p>
                                 <p class="white-text name thin-text">PABLO ALARCÓN</p>
-                                <a href="mailto:pablo@estudioceruleo.com" class="white-text bold-text emailto">pablo@estudioceruleo.com</a>
+                                <a href="mailto:pablo@estudioceruleo.com?subject=Hola Pablo" class="white-text bold-text emailto">pablo@estudioceruleo.com</a>
                             </article>                                
                         </div>
                     </div>
@@ -359,7 +567,7 @@
                 <div class="row">
                     <article class="col-12 title-hola">
                         <hr>
-                        <p class="grey-text bold-text">HOLA</p>
+                        <p class="grey-text bold-text" template="hi"></p>
                     </article>
                     <div class="col-10 partners partners2">
                         <article class="column-right">
@@ -377,17 +585,17 @@
                             </div>
                         </article>
                         <article>
-                            <p class="grey-text role">BUENOS AIRES</p>
-                            <p class="grey-text name thin-text">5411.4811.9802</p>
-                            <a href="mailto:hola@estudioceruleo.com" class="grey-text bold-text emailto">hola@estudioceruleo.com</a>
+                            <p class="grey-text role" template="hi_location"></p>
+                            <p class="grey-text name thin-text" template="hi_phone"></p>
+                            <a class="grey-text bold-text emailto" template="hi_mail"></a>
                         </article>
                     </div>
                     <div class="col-2 center-text heart-column">
                         <img src="assets/images/heart.PNG" class="heart align-center">
                         <div class=" align-center social">
                             <img src="assets/images/heart.PNG" class="heart heart-mobile">
-                            <a href="#"><img src="assets/images/insta.PNG"></a>
-                            <a href="#"><img src="assets/images/behance.PNG"></a>
+                            <a template="insta" target="_blank"><img src="assets/images/insta.PNG"></a>
+                            <a template="behance" target="_blank"><img src="assets/images/behance.PNG"></a>
                         </div>
                     </div>
                 </div>

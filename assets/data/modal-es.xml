@@ -1,112 +1,422 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root> 
-    <data>        
-        <firstsrc_0>assets/images/BG_S1_Desktop.jpg</firstsrc_0>
-        <secondsrc_0>assets/images/BG_S1_Desktop.jpg</secondsrc_0>
-        <thirdsrc_0>assets/images/BG_S1_Desktop.jpg</thirdsrc_0>
-        <modalyear_0>2018</modalyear_0>
-        <modalvolanta_0>EDITORIAL</modalvolanta_0>
-        <modaltitle_0>Museo de Arte Moderno de Buenos Aires -MAMBA-</modaltitle_0>
-        <modaltext_0>Diseño de catálogo para la muestra realizada por el grupo ABTE</modaltext_0>
+    <data>
+    
+        <insta>https://www.instagram.com/estudioceruleo/</insta>
+        <behance>https://www.behance.net/ceruleo</behance>
+
+        <firstsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-00.jpg</firstsrc_0>
+        <secondsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-01.jpg</secondsrc_0>
+        <thirdsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-02.jpg</thirdsrc_0>
+        <fourthsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-03.jpg</fourthsrc_0>
+        <fifthsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-04.jpg</fifthsrc_0>
+        <sixthsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-05.jpg</sixthsrc_0>
+        <seventhsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-06.jpg</seventhsrc_0>
+        <eightsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-07.jpg</eightsrc_0>
+        <ninthsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-08.jpg</ninthsrc_0>
+        <tenthsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-09.jpg</tenthsrc_0>
+        <eleventhsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-10.jpg</eleventhsrc_0>
+        <twelvethsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-11.jpg</twelvethsrc_0>
+        <thirdteenthsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-12.jpg</thirdteenthsrc_0>
+        <fourteenthsrc_0>assets/images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-13.jpg</fourteenthsrc_0>
+        <modalyear_0>2019</modalyear_0>
+        <modalvolanta_0>IDENTIDAD</modalvolanta_0>
+        <modaltitle_0>Logos varios</modaltitle_0>
+        <modaltext_0>Estas son algunas marcas realizadas por el estudio, en durante estos años.</modaltext_0>
         <modalback_0>VOLVER</modalback_0>
 
-        <firstsrc_1>assets/images/BG_S1_Desktop.jpg</firstsrc_1>
-        <secondsrc_1>assets/images/BG_S1_Desktop.jpg</secondsrc_1>
-        <thirdsrc_1>assets/images/BG_S1_Desktop.jpg</thirdsrc_1>
-        <modalyear_1>2018</modalyear_1>
-        <modalvolanta_1>SASASA</modalvolanta_1>
-        <modaltitle_1>Museo de Arte Moderno de Buenos Aires -MAMBA-</modaltitle_1>
-        <modaltext_1>Diseño de catálogo para la muestra realizada por el grupo ABTE</modaltext_1>
+        <firstsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_001.jpg</firstsrc_1>
+        <secondsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_002.jpg</secondsrc_1>
+        <thirdsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_003.jpg</thirdsrc_1>
+        <fourthsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_004.jpg</fourthsrc_1>
+        <fifthsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_005.jpg</fifthsrc_1>
+        <sixthsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_006.jpg</sixthsrc_1>
+        <seventhsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_007.jpg</seventhsrc_1>
+        <eightsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_008.jpg</eightsrc_1>
+        <ninthsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_009.jpg</ninthsrc_1>
+        <tenthsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_010.jpg</tenthsrc_1>
+        <eleventhsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_011.jpg</eleventhsrc_1>
+        <twelvethsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_012.jpg</twelvethsrc_1>
+        <thirdteenthsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_013.jpg</thirdteenthsrc_1>
+        <fourteenthsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_014.jpg</fourteenthsrc_1>
+        <fifteenthsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_015.jpg</fifteenthsrc_1>
+        <sixteenthsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_016.jpg</sixteenthsrc_1>
+        <seventeenthsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_017.jpg</seventeenthsrc_1>
+        <eighteenthsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_018.jpg</eighteenthsrc_1>
+        <nineteenthsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_019.jpg</nineteenthsrc_1>
+        <twentiethsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_020.jpg</twentiethsrc_1>
+        <twentyfirstsrc_1>assets/images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_021.jpg</twentyfirstsrc_1>
+        <modalyear_1>2019</modalyear_1>
+        <modalvolanta_1>EDITORIAL</modalvolanta_1>
+        <modaltitle_1>Catapulta Editores</modaltitle_1>
+        <modaltext_1>Catapulta Editores conjuntamente con la Revista Lugares, nos encarga el diseño y armados del libro Argentina the Great Book. Se trata de un libro bilingüe fotográfico de gran formato, con imágenes de la Argentina. 
+A partir del banco de imágenes de la Revista Lugares, realizamos la puesta en página, del atlas de la Argentina. La idea era generar un impacto visual poético.
+</modaltext_1>
         <modalback_1>VOLVER</modalback_1>
 
-        <firstsrc_2>assets/images/BG_S1_Desktop.jpg</firstsrc_2>
-        <secondsrc_2>assets/images/BG_S1_Desktop.jpg</secondsrc_2>
-        <thirdsrc_2>assets/images/BG_S1_Desktop.jpg</thirdsrc_2>
+        <firstsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-nat-01.jpg</firstsrc_2>
+        <secondsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-nat-02.jpg</secondsrc_2>
+        <thirdsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-nat-03.jpg</thirdsrc_2>
+        <fourthsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-nat-04.jpg</fourthsrc_2>
+        <fifthsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-nat-05.jpg</fifthsrc_2>
+        <sixthsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-nat-06.jpg</sixthsrc_2>
+        <seventhsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-nat-07.jpg</seventhsrc_2>
+        <eightsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-nat-08.jpg</eightsrc_2>
+        <ninthsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-nat-09.jpg</ninthsrc_2>
+        <tenthsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-nat-10.jpg</tenthsrc_2>
+        <eleventhsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-nat-11.jpg</eleventhsrc_2>
+        <twelvethsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-soc-01.jpg</twelvethsrc_2>
+        <thirdteenthsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-soc-02.jpg</thirdteenthsrc_2>
+        <fourteenthsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-soc-03.jpg</fourteenthsrc_2>
+        <fifteenthsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-soc-04.jpg</fifteenthsrc_2>
+        <sixteenthsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-soc-05.jpg</sixteenthsrc_2>
+        <seventeenthsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-soc-06.jpg</seventeenthsrc_2>
+        <eighteenthsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-soc-07.jpg</eighteenthsrc_2>
+        <nineteenthsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-soc-08.jpg</nineteenthsrc_2>
+        <twentiethsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-soc-09.jpg</twentiethsrc_2>
+        <twentyfirstsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-soc-10.jpg</twentyfirstsrc_2>
+        <twentysecondsrc_2>assets/images/portfolio/2018-EDIT-PP-En Orbita/2018-edit-pp-soc-11.jpg</twentysecondsrc_2>
         <modalyear_2>2018</modalyear_2>
-        <modalvolanta_2>SASASA</modalvolanta_2>
-        <modaltitle_2>Museo de Arte Moderno de Buenos Aires -MAMBA-</modaltitle_2>
-        <modaltext_2>Diseño de catálogo para la muestra realizada por el grupo ABTE</modaltext_2>
+        <modalvolanta_2>EDITORIAL</modalvolanta_2>
+        <modaltitle_2>Puerto de Palos</modaltitle_2>
+        <modaltext_2>Diseño y armados de maquetas para los libros de áreas de Ciencias Sociales, Ciencias Naturales y Lengua de 2do ciclo y sus respectivas Carpeta de actividades, de la serie En Órbita.
+Armados de los libros de Ciencias Sociales y Ciencias Naturales, de 4to, 5to, 5to y 7mo grado.
+</modaltext_2>
         <modalback_2>VOLVER</modalback_2>
 
-        <firstsrc_3>assets/images/BG_S1_Desktop.jpg</firstsrc_3>
-        <secondsrc_3>assets/images/BG_S1_Desktop.jpg</secondsrc_3>
-        <thirdsrc_3>assets/images/BG_S1_Desktop.jpg</thirdsrc_3>
+        <firstsrc_3>assets/images/portfolio/2018-EDIT-MODERNO-mastracchio/2018_moderno_mastracchio_001.jpg</firstsrc_3>
+        <secondsrc_3>assets/images/portfolio/2018-EDIT-MODERNO-mastracchio/2018_moderno_mastracchio_002.jpg</secondsrc_3>
+        <thirdsrc_3>assets/images/portfolio/2018-EDIT-MODERNO-mastracchio/2018_moderno_mastracchio_003.jpg</thirdsrc_3>
+        <fourthsrc_3>assets/images/portfolio/2018-EDIT-MODERNO-mastracchio/2018_moderno_mastracchio_004.jpg</fourthsrc_3>
+        <fifthsrc_3>assets/images/portfolio/2018-EDIT-MODERNO-mastracchio/2018_moderno_mastracchio_005.jpg</fifthsrc_3>
+        <sixthsrc_3>assets/images/portfolio/2018-EDIT-MODERNO-mastracchio/2018_moderno_mastracchio_006.jpg</sixthsrc_3>
+        <seventhsrc_3>assets/images/portfolio/2018-EDIT-MODERNO-mastracchio/2018_moderno_mastracchio_007.jpg</seventhsrc_3>
+        <eightsrc_3>assets/images/portfolio/2018-EDIT-MODERNO-mastracchio/2018_moderno_mastracchio_008.jpg</eightsrc_3>
+        <ninthsrc_3>assets/images/portfolio/2018-EDIT-MODERNO-mastracchio/2018_moderno_mastracchio_009.jpg</ninthsrc_3>
+        <tenthsrc_3>assets/images/portfolio/2018-EDIT-MODERNO-mastracchio/2018_moderno_mastracchio_010.jpg</tenthsrc_3>
+        <eleventhsrc_3>assets/images/portfolio/2018-EDIT-MODERNO-mastracchio/2018_moderno_mastracchio_011.jpg</eleventhsrc_3>
         <modalyear_3>2018</modalyear_3>
-        <modalvolanta_3>SASASA</modalvolanta_3>
-        <modaltitle_3>Museo de Arte Moderno de Buenos Aires -MAMBA-</modaltitle_3>
-        <modaltext_3>Diseño de catálogo para la muestra realizada por el grupo ABTE</modaltext_3>
+        <modalvolanta_3>EDITORIAL</modalvolanta_3>
+        <modaltitle_3>Museo de Arte Moderno de Buenos Aires —El Moderno—</modaltitle_3>
+        <modaltext_3>Diseño del catálogo de la muestra Pulso, realizada por el artista, Nicolás Mastracchio en el Museo de Arte Moderno de Buenos Aires.</modaltext_3>
         <modalback_3>VOLVER</modalback_3>
 
-        <firstsrc_4>assets/images/BG_S1_Desktop.jpg</firstsrc_4>
-        <secondsrc_4>assets/images/BG_S1_Desktop.jpg</secondsrc_4>
-        <thirdsrc_4>assets/images/BG_S1_Desktop.jpg</thirdsrc_4>
-        <modalyear_4>2018</modalyear_4>
-        <modalvolanta_4>SASASA</modalvolanta_4>
-        <modaltitle_4>Museo de Arte Moderno de Buenos Aires -MAMBA-</modaltitle_4>
-        <modaltext_4>Diseño de catálogo para la muestra realizada por el grupo ABTE</modaltext_4>
+        <firstsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-0.jpg</firstsrc_4>
+        <secondsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-1.jpg</secondsrc_4>
+        <thirdsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-2.jpg</thirdsrc_4>
+        <fourthsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-3.jpg</fourthsrc_4>
+        <fifthsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-4.jpg</fifthsrc_4>
+        <sixthsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-5.jpg</sixthsrc_4>
+        <seventhsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-6.jpg</seventhsrc_4>
+        <eightsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-7.jpg</eightsrc_4>
+        <ninthsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-8.jpg</ninthsrc_4>
+        <tenthsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-9.jpg</tenthsrc_4>
+        <eleventhsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-10.jpg</eleventhsrc_4>
+        <twelvethsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-11.jpg</twelvethsrc_4>
+        <thirdteenthsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-12.jpg</thirdteenthsrc_4>
+        <fourteenthsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-13.jpg</fourteenthsrc_4>
+        <fifteenthsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-14.jpg</fifteenthsrc_4>
+        <sixteenthsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-15.jpg</sixteenthsrc_4>
+        <seventeenthsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-16.jpg</seventeenthsrc_4>
+        <eighteenthsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-17.jpg</eighteenthsrc_4>
+        <nineteenthsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-18.jpg</nineteenthsrc_4>
+        <twentiethsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-19.jpg</twentiethsrc_4>
+        <twentyfirstsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-20.jpg</twentyfirstsrc_4>
+        <twentysecondsrc_4>assets/images/portfolio/2017-edit-penguin-fusco/2017-edit-penguin-fusco-21.jpg</twentysecondsrc_4>
+        <modalyear_4>2017</modalyear_4>
+        <modalvolanta_4>EDITORIAL</modalvolanta_4>
+        <modaltitle_4>Penguin Random House Grupo Editor</modaltitle_4>
+        <modaltext_4>Para Penguin Random House Grupo Editor, diseñamos para el sello Aguilar, el libro Fusco. El fotógrafo de Perón.
+El libro reúne la obra de Pinélides Fusco, autor de imágenes emblemáticas que dejaron huella en la construcción del imaginario peronista. También se encontraran con imágenes inéditas.
+</modaltext_4>
         <modalback_4>VOLVER</modalback_4>
 
-        <firstsrc_5>assets/images/BG_S1_Desktop.jpg</firstsrc_5>
-        <secondsrc_5>assets/images/BG_S1_Desktop.jpg</secondsrc_5>
-        <thirdsrc_5>assets/images/BG_S1_Desktop.jpg</thirdsrc_5>
-        <modalyear_5>2018</modalyear_5>
-        <modalvolanta_5>SASASA</modalvolanta_5>
-        <modaltitle_5>Museo de Arte Moderno de Buenos Aires -MAMBA-</modaltitle_5>
-        <modaltext_5>Diseño de catálogo para la muestra realizada por el grupo ABTE</modaltext_5>
+        <firstsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-000-tapa.jpg</firstsrc_5>
+        <secondsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-001.jpg</secondsrc_5>
+        <thirdsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-002.jpg</thirdsrc_5>
+        <fourthsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-003.jpg</fourthsrc_5>
+        <fifthsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-004.jpg</fifthsrc_5>
+        <sixthsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-005.jpg</sixthsrc_5>
+        <seventhsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-006.jpg</seventhsrc_5>
+        <eightsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-007.jpg</eightsrc_5>
+        <ninthsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-008.jpg</ninthsrc_5>
+        <tenthsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-009.jpg</tenthsrc_5>
+        <eleventhsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-010.jpg</eleventhsrc_5>
+        <twelvethsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-011.jpg</twelvethsrc_5>
+        <thirdteenthsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-012.jpg</thirdteenthsrc_5>
+        <fourteenthsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-013.jpg</fourteenthsrc_5>
+        <fifteenthsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-014.jpg</fifteenthsrc_5>
+        <sixteenthsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-015.jpg</sixteenthsrc_5>
+        <seventeenthsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-016.jpg</seventeenthsrc_5>
+        <eighteenthsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-017.jpg</eighteenthsrc_5>
+        <nineteenthsrc_5>assets/images/portfolio/2017-EDIT-MODERNO-ABTE/2017-edit-abte-018.jpg</nineteenthsrc_5>
+        <modalyear_5>2017</modalyear_5>
+        <modalvolanta_5>EDITORIAL</modalvolanta_5>
+        <modaltitle_5>Museo de Arte Moderno de Buenos Aires —El Moderno— </modaltitle_5>
+        <modaltext_5>En esta oportunidad diseñamos el catálogo de la muestra 57 x 30,5 mm Quince años de la cultura ferroviaria, realizada por el grupo ABTE, en El Moderno.</modaltext_5>
         <modalback_5>VOLVER</modalback_5>
 
-        <firstsrc_6>assets/images/BG_S1_Desktop.jpg</firstsrc_6>
-        <secondsrc_6>assets/images/BG_S1_Desktop.jpg</secondsrc_6>
-        <thirdsrc_6>assets/images/BG_S1_Desktop.jpg</thirdsrc_6>
-        <modalyear_6>2018</modalyear_6>
-        <modalvolanta_6>SASASA</modalvolanta_6>
-        <modaltitle_6>Museo de Arte Moderno de Buenos Aires -MAMBA-</modaltitle_6>
-        <modaltext_6>Diseño de catálogo para la muestra realizada por el grupo ABTE</modaltext_6>
+        <firstsrc_6>assets/images/portfolio/2017-edit-kape-diccionarios/2017-edit-kape-diccionarios-01.jpg</firstsrc_6>
+        <secondsrc_6>assets/images/portfolio/2017-edit-kape-diccionarios/2017-edit-kape-diccionarios-02.jpg</secondsrc_6>
+        <thirdsrc_6>assets/images/portfolio/2017-edit-kape-diccionarios/2017-edit-kape-diccionarios-03.jpg</thirdsrc_6>
+        <modalyear_6>2017</modalyear_6>
+        <modalvolanta_6>EDITORIAL</modalvolanta_6>
+        <modaltitle_6>Kapelusz</modaltitle_6>
+        <modaltext_6>Hemos rediseñado las tapas de la colección de sus Diccionarios Escolares y Pocket.</modaltext_6>
         <modalback_6>VOLVER</modalback_6>
 
-        <firstsrc_7>assets/images/BG_S1_Desktop.jpg</firstsrc_7>
-        <secondsrc_7>assets/images/BG_S1_Desktop.jpg</secondsrc_7>
-        <thirdsrc_7>assets/images/BG_S1_Desktop.jpg</thirdsrc_7>
-        <modalyear_7>2018</modalyear_7>
-        <modalvolanta_7>SASASA</modalvolanta_7>
-        <modaltitle_7>Museo de Arte Moderno de Buenos Aires -MAMBA-</modaltitle_7>
-        <modaltext_7>Diseño de catálogo para la muestra realizada por el grupo ABTE</modaltext_7>
+        <firstsrc_7>assets/images/portfolio/2016-edit-kape-sumados/2016-edit-kape-sumados_01.jpg</firstsrc_7>
+        <secondsrc_7>assets/images/portfolio/2016-edit-kape-sumados/2016-edit-kape-sumados_02.jpg</secondsrc_7>
+        <thirdsrc_7>assets/images/portfolio/2016-edit-kape-sumados/2016-edit-kape-sumados_03.jpg</thirdsrc_7>
+        <fourthsrc_7>assets/images/portfolio/2016-edit-kape-sumados/2016-edit-kape-sumados_04.jpg</fourthsrc_7>
+        <fifthsrc_7>assets/images/portfolio/2016-edit-kape-sumados/2016-edit-kape-sumados_05.jpg</fifthsrc_7>
+        <sixthsrc_7>assets/images/portfolio/2016-edit-kape-sumados/2016-edit-kape-sumados_06.jpg</sixthsrc_7>
+        <seventhsrc_7>assets/images/portfolio/2016-edit-kape-sumados/2016-edit-kape-sumados_07.jpg</seventhsrc_7>
+        <eightsrc_7>assets/images/portfolio/2016-edit-kape-sumados/2016-edit-kape-sumados_08.jpg</eightsrc_7>
+        <ninthsrc_7>assets/images/portfolio/2016-edit-kape-sumados/2016-edit-kape-sumados_09.jpg</ninthsrc_7>
+        <modalyear_7>2016</modalyear_7>
+        <modalvolanta_7>EDITORIAL</modalvolanta_7>
+        <modaltitle_7>Kapelusz</modaltitle_7>
+        <modaltext_7>Diseño y armados de las maquetas de las tapas y del interior de los libros Sumados  de 4to, 5to y 6to grado para el 2do ciclo de primaria.  
+Armamos los interiores teniendo en cuenta las necesidades de estas carpetas fungibles.  
+</modaltext_7>
         <modalback_7>VOLVER</modalback_7>
 
-        <firstsrc_8>assets/images/BG_S1_Desktop.jpg</firstsrc_8>
-        <secondsrc_8>assets/images/BG_S1_Desktop.jpg</secondsrc_8>
-        <thirdsrc_8>assets/images/BG_S1_Desktop.jpg</thirdsrc_8>
-        <modalyear_8>2018</modalyear_8>
-        <modalvolanta_8>SASASA</modalvolanta_8>
-        <modaltitle_8>Museo de Arte Moderno de Buenos Aires -MAMBA-</modaltitle_8>
-        <modaltext_8>Diseño de catálogo para la muestra realizada por el grupo ABTE</modaltext_8>
+        <firstsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-len-01.jpg</firstsrc_8>
+        <secondsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-len-02.jpg</secondsrc_8>
+        <thirdsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-len-03.jpg</thirdsrc_8>
+        <fourthsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-len-04.jpg</fourthsrc_8>
+        <fifthsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-len-05.jpg</fifthsrc_8>
+        <sixthsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-len-06.jpg</sixthsrc_8>
+        <seventhsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-nat-01.jpg</seventhsrc_8>
+        <eightsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-nat-02.jpg</eightsrc_8>
+        <ninthsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-nat-03.jpg</ninthsrc_8>
+        <tenthsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-nat-04.jpg</tenthsrc_8>
+        <eleventhsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-nat-05.jpg</eleventhsrc_8>
+        <twelvethsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-nat-06.jpg</twelvethsrc_8>
+        <thirdteenthsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-soc-01.jpg</thirdteenthsrc_8>
+        <fourteenthsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-soc-02.jpg</fourteenthsrc_8>
+        <fifteenthsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-soc-03.jpg</fifteenthsrc_8>
+        <sixteenthsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-soc-04.jpg</sixteenthsrc_8>
+        <seventeenthsrc_8>assets/images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-soc-05.jpg</seventeenthsrc_8>
+        <modalyear_8>2016</modalyear_8>
+        <modalvolanta_8>EDITORIAL</modalvolanta_8>
+        <modaltitle_8>Puerto de Palos</modaltitle_8>
+        <modaltext_8>Diseño y armados de las maquetas para los libros Binárias Activa XXI de las áreas de Ciencias Sociales, Ciencias Naturales de 2do ciclo.  
+También diseñamos la maqueta de la carpeta de Actividades dePrácticas del Lenguaje, de 2do ciclo.  
+</modaltext_8>
         <modalback_8>VOLVER</modalback_8>
 
-        <firstsrc_9>assets/images/BG_S1_Desktop.jpg</firstsrc_9>
-        <secondsrc_9>assets/images/BG_S1_Desktop.jpg</secondsrc_9>
-        <thirdsrc_9>assets/images/BG_S1_Desktop.jpg</thirdsrc_9>
-        <modalyear_9>2018</modalyear_9>
-        <modalvolanta_9>SASASA</modalvolanta_9>
-        <modaltitle_9>Museo de Arte Moderno de Buenos Aires -MAMBA-</modaltitle_9>
-        <modaltext_9>Diseño de catálogo para la muestra realizada por el grupo ABTE</modaltext_9>
+        <firstsrc_9>assets/images/portfolio/2015-web-fnv-arte-en-accion/2015-web-fnv-arte-en-accion-01.jpg</firstsrc_9>
+        <secondsrc_9>assets/images/portfolio/2015-web-fnv-arte-en-accion/2015-web-fnv-arte-en-accion-02.jpg</secondsrc_9>
+        <thirdsrc_9>assets/images/portfolio/2015-web-fnv-arte-en-accion/2015-web-fnv-arte-en-accion-03.jpg</thirdsrc_9>
+        <fourthsrc_9>assets/images/portfolio/2015-web-fnv-arte-en-accion/2015-web-fnv-arte-en-accion-04.jpg</fourthsrc_9>
+        <fifthsrc_9>assets/images/portfolio/2015-web-fnv-arte-en-accion/2015-web-fnv-arte-en-accion-05.jpg</fifthsrc_9>
+        <modalyear_9>2015</modalyear_9>
+        <modalvolanta_9>DIGITAL</modalvolanta_9>
+        <modaltitle_9>Fundación Navarro Viola</modaltitle_9>
+        <modaltext_9>Diseñamos el site Agenda Cultural x Mayores,  de la Fundación Navarro Viola, con un diseño lúdico y fácil de usar.
+Para comunicar la actualización de la Agenda Cultural x Mayores, a los usuarios registrados, se diseñó un newsletter digital interactivo, para ser enviado por mail.
+</modaltext_9>
         <modalback_9>VOLVER</modalback_9>
 
-        <firstsrc_10>assets/images/BG_S1_Desktop.jpg</firstsrc_10>
-        <secondsrc_10>assets/images/BG_S1_Desktop.jpg</secondsrc_10>
-        <thirdsrc_10>assets/images/BG_S1_Desktop.jpg</thirdsrc_10>
-        <modalyear_10>2018</modalyear_10>
-        <modalvolanta_10>SASASA</modalvolanta_10>
-        <modaltitle_10>Museo de Arte Moderno de Buenos Aires -MAMBA-</modaltitle_10>
-        <modaltext_10>Diseño de catálogo para la muestra realizada por el grupo ABTE</modaltext_10>
+        <firstsrc_10>assets/images/portfolio/2015-edit-sm-hoyos/2015-edit-sm-hoyos-01.jpg</firstsrc_10>
+        <secondsrc_10>assets/images/portfolio/2015-edit-sm-hoyos/2015-edit-sm-hoyos-02.jpg</secondsrc_10>
+        <thirdsrc_10>assets/images/portfolio/2015-edit-sm-hoyos/2015-edit-sm-hoyos-03.jpg</thirdsrc_10>
+        <fourthsrc_10>assets/images/portfolio/2015-edit-sm-hoyos/2015-edit-sm-hoyos-04.jpg</fourthsrc_10>
+        <fifthsrc_10>assets/images/portfolio/2015-edit-sm-hoyos/2015-edit-sm-hoyos-05.jpg</fifthsrc_10>
+        <sixthsrc_10>assets/images/portfolio/2015-edit-sm-hoyos/2015-edit-sm-hoyos-06.jpg</sixthsrc_10>
+        <seventhsrc_10>assets/images/portfolio/2015-edit-sm-hoyos/2015-edit-sm-hoyos-07.jpg</seventhsrc_10>
+        <modalyear_10>2014</modalyear_10>
+        <modalvolanta_10>EDITORIAL</modalvolanta_10>
+        <modaltitle_10>SM Ediciones</modaltitle_10>
+        <modaltext_10>SM Ediciones nos convocan para el armado de la tapa y el interior de unos de sus libros del área de Literatura infantil y juvenil. En este caso nos solicitan el rediseño de uno de los libros que tienen en su colección, buscando una imagen pura, moderna y que tenga un destaque entre los libros de sus competidores.</modaltext_10>
         <modalback_10>VOLVER</modalback_10>
 
-        <firstsrc_11>assets/images/BG_S1_Desktop.jpg</firstsrc_11>
-        <secondsrc_11>assets/images/BG_S1_Desktop.jpg</secondsrc_11>
-        <thirdsrc_11>assets/images/BG_S1_Desktop.jpg</thirdsrc_11>
-        <modalyear_11>2018</modalyear_11>
-        <modalvolanta_11>SASASA</modalvolanta_11>
-        <modaltitle_11>Museo de Arte Moderno de Buenos Aires -MAMBA-</modaltitle_11>
-        <modaltext_11>Diseño de catálogo para la muestra realizada por el grupo ABTE</modaltext_11>  
+        <firstsrc_11>assets/images/portfolio/2015-edit-henkel-catalogo/2015-edit-henkel-catalogo-01.jpg</firstsrc_11>
+        <secondsrc_11>assets/images/portfolio/2015-edit-henkel-catalogo/2015-edit-henkel-catalogo-02.jpg</secondsrc_11>
+        <thirdsrc_11>assets/images/portfolio/2015-edit-henkel-catalogo/2015-edit-henkel-catalogo-03.jpg</thirdsrc_11>
+        <fourthsrc_11>assets/images/portfolio/2015-edit-henkel-catalogo/2015-edit-henkel-catalogo-04.jpg</fourthsrc_11>
+        <fifthsrc_11>assets/images/portfolio/2015-edit-henkel-catalogo/2015-edit-henkel-catalogo-05.jpg</fifthsrc_11>
+        <sixthsrc_11>assets/images/portfolio/2015-edit-henkel-catalogo/2015-edit-henkel-catalogo-06.jpg</sixthsrc_11>
+        <modalyear_11>2014</modalyear_11>
+        <modalvolanta_11>EDITORIAL</modalvolanta_11>
+        <modaltitle_11>Henkel</modaltitle_11>
+        <modaltext_11>Entre los distintos productos realizados para la empresa Henkel, en esta oportunidad nos encargan que diseñemos el catálogo de los productos Loctite y Teroson. </modaltext_11>  
         <modalback_11>VOLVER</modalback_11>
+
+        <firstsrc_12>assets/images/portfolio/2014-edit-pp-practi/2014-edit-pp-practi-l-00.jpg</firstsrc_12>
+        <secondsrc_12>assets/images/portfolio/2014-edit-pp-practi/2014-edit-pp-practi-l-01.jpg</secondsrc_12>
+        <thirdsrc_12>assets/images/portfolio/2014-edit-pp-practi/2014-edit-pp-practi-l-02.jpg</thirdsrc_12>
+        <fourthsrc_12>assets/images/portfolio/2014-edit-pp-practi/2014-edit-pp-practi-l-03.jpg</fourthsrc_12>
+        <fifthsrc_12>assets/images/portfolio/2014-edit-pp-practi/2014-edit-pp-practi-l-04.jpg</fifthsrc_12>
+        <sixthsrc_12>assets/images/portfolio/2014-edit-pp-practi/2014-edit-pp-practi-l-05.jpg</sixthsrc_12>
+        <seventhsrc_12>assets/images/portfolio/2014-edit-pp-practi/2014-edit-pp-practi-l-06.jpg</seventhsrc_12>
+        <eightsrc_12>assets/images/portfolio/2014-edit-pp-practi/2014-edit-pp-practi-m-07.jpg</eightsrc_12>
+        <ninthsrc_12>assets/images/portfolio/2014-edit-pp-practi/2014-edit-pp-practi-m-08.jpg</ninthsrc_12>
+        <tenthsrc_12>assets/images/portfolio/2014-edit-pp-practi/2014-edit-pp-practi-m-09.jpg</tenthsrc_12>
+        <modalyear_12>2014</modalyear_12>
+        <modalvolanta_12>EDITORIAL</modalvolanta_12>
+        <modaltitle_12>Puerto de Palos</modaltitle_12>
+        <modaltext_12>Diseño y armados de las tapas y de los interiores de las carpetas PráctiLengua y PráctiMate de 4to, 5to, 6to grado de la escuela primaria.
+Buscamos un diseño lúdico y divertido para la hora de hacer los distintos ejercicios a la hora de la merienda.
+</modaltext_12>
+        <modalback_12>VOLVER</modalback_12>
+
+        <firstsrc_13>assets/images/portfolio/2013-edit-penguin-los-nuevos-padres/2013-edit-penguin-los-nuevos-padres-01.jpg</firstsrc_13>
+        <secondsrc_13>assets/images/portfolio/2013-edit-penguin-los-nuevos-padres/2013-edit-penguin-los-nuevos-padres-02.jpg</secondsrc_13>
+        <thirdsrc_13>assets/images/portfolio/2013-edit-penguin-los-nuevos-padres/2013-edit-penguin-los-nuevos-padres-03.jpg</thirdsrc_13>
+        <fourthsrc_13>assets/images/portfolio/2013-edit-penguin-los-nuevos-padres/2013-edit-penguin-los-nuevos-padres-04.jpg</fourthsrc_13>
+        <fifthsrc_13>assets/images/portfolio/2013-edit-penguin-los-nuevos-padres/2013-edit-penguin-los-nuevos-padres-05.jpg</fifthsrc_13>
+        <sixthsrc_13>assets/images/portfolio/2013-edit-penguin-los-nuevos-padres/2013-edit-penguin-los-nuevos-padres-06.jpg</sixthsrc_13>
+        <seventhsrc_13>assets/images/portfolio/2013-edit-penguin-los-nuevos-padres/2013-edit-penguin-los-nuevos-padres-07.jpg</seventhsrc_13>
+        <eightsrc_13>assets/images/portfolio/2013-edit-penguin-los-nuevos-padres/2013-edit-penguin-los-nuevos-padres-08.jpg</eightsrc_13>
+        <ninthsrc_13>assets/images/portfolio/2013-edit-penguin-los-nuevos-padres/2013-edit-penguin-los-nuevos-padres-09.jpg</ninthsrc_13>
+        <tenthsrc_13>assets/images/portfolio/2013-edit-penguin-los-nuevos-padres/2013-edit-penguin-los-nuevos-padres-10.jpg</tenthsrc_13>
+        <modalyear_13>2017</modalyear_13>
+        <modalvolanta_13>EDITORIAL</modalvolanta_13>
+        <modaltitle_13>Penguin Random House Grupo Editor</modaltitle_13>
+        <modaltext_13>Diseñamos para el sello Aguilar, de la editorial Penguin Random House Grupo Editor, la tapa y el interior del libro Los nuevos padres de Alejendra Libenson.</modaltext_13>
+        <modalback_13>VOLVER</modalback_13>
+
+        <firstsrc_14>assets/images/portfolio/2013-edit-fnv-memoria/2013-edit-fnv-memoria_1.jpg</firstsrc_14>
+        <secondsrc_14>assets/images/portfolio/2013-edit-fnv-memoria/2013-edit-fnv-memoria_2.jpg</secondsrc_14>
+        <thirdsrc_14>assets/images/portfolio/2013-edit-fnv-memoria/2013-edit-fnv-memoria_3.jpg</thirdsrc_14>
+        <fourthsrc_14>assets/images/portfolio/2013-edit-fnv-memoria/2013-edit-fnv-memoria_4.jpg</fourthsrc_14>
+        <fifthsrc_14>assets/images/portfolio/2013-edit-fnv-memoria/2013-edit-fnv-memoria_5.jpg</fifthsrc_14>
+        <sixthsrc_14>assets/images/portfolio/2013-edit-fnv-memoria/2013-edit-fnv-memoria_6.jpg</sixthsrc_14>
+        <seventhsrc_14>assets/images/portfolio/2013-edit-fnv-memoria/2013-edit-fnv-memoria_7.jpg</seventhsrc_14>
+        <eightsrc_14>assets/images/portfolio/2013-edit-fnv-memoria/2013-edit-fnv-memoria_8.jpg</eightsrc_14>
+        <ninthsrc_14>assets/images/portfolio/2013-edit-fnv-memoria/2013-edit-fnv-memoria_9.jpg</ninthsrc_14>
+        <tenthsrc_14>assets/images/portfolio/2013-edit-fnv-memoria/2013-edit-fnv-memoria_10.jpg</tenthsrc_14>
+        <eleventhsrc_14>assets/images/portfolio/2013-edit-fnv-memoria/2013-edit-fnv-memoria_11.jpg</eleventhsrc_14>
+        <modalyear_14>2013</modalyear_14>
+        <modalvolanta_14>EDITORIAL</modalvolanta_14>
+        <modaltitle_14>Fundación Navarro Viola</modaltitle_14>
+        <modaltext_14>En esta ocasión la Fundación Navarro Viola, nos convocaron para diseñar, y armar la Memoria bienal # 37 | 38 que corresponde a los ejercicios de los años 2010 - 1011 y 2011 - 2012.  Buscando una identidad mas amena, con el desafío de lograr una lectura lineal y otra donde la lectura sea mas dinámica. </modaltext_14>
+        <modalback_14>VOLVER</modalback_14>
+
+        <firstsrc_15>assets/images/portfolio/2012-ilustracion-henkel-remera/2012-ilustracion-henkel-remera-01.jpg</firstsrc_15>
+        <secondsrc_15>assets/images/portfolio/2012-ilustracion-henkel-remera/2012-ilustracion-henkel-remera-02.jpg</secondsrc_15>
+        <modalyear_15>2012</modalyear_15>
+        <modalvolanta_15>ILUSTRACIÓN</modalvolanta_15>
+        <modaltitle_15>Henkel</modaltitle_15>
+        <modaltext_15>Henkel Argentina, nos solicita que realicemos una ilustración para el diseño de la remera con motivo de la realización del Dakar en la Argentina. En este ello realizamos un collage.</modaltext_15>
+        <modalback_15>VOLVER</modalback_15>
+
+        <firstsrc_16>assets/images/portfolio/2012-edit-penguin-tapas/2015-edit-penguin-tapas-01.jpg</firstsrc_16>
+        <secondsrc_16>assets/images/portfolio/2012-edit-penguin-tapas/2015-edit-penguin-tapas-02.jpg</secondsrc_16>
+        <thirdsrc_16>assets/images/portfolio/2012-edit-penguin-tapas/2015-edit-penguin-tapas-03.jpg</thirdsrc_16>
+        <fourthsrc_16>assets/images/portfolio/2012-edit-penguin-tapas/2015-edit-penguin-tapas-04.jpg</fourthsrc_16>
+        <modalyear_16>2012</modalyear_16>
+        <modalvolanta_16>EDITORIAL</modalvolanta_16>
+        <modaltitle_16>Penguin Random House Grupo Editor</modaltitle_16>
+        <modaltext_16>Para el sello editorial Aguilar de Penguin Random House Grupo Editor, diseñamos algunas tapas, teniendo en cuenta la identidad de la editorial y de cada libro.</modaltext_16>
+        <modalback_16>VOLVER</modalback_16>
+
+        <firstsrc_17>assets/images/portfolio/2010-web-isepci/2010-web-isepci-01.jpg</firstsrc_17>
+        <secondsrc_17>assets/images/portfolio/2010-web-isepci/2010-web-isepci-02.jpg</secondsrc_17>
+        <thirdsrc_17>assets/images/portfolio/2010-web-isepci/2010-web-isepci-03.jpg</thirdsrc_17>
+        <fourthsrc_17>assets/images/portfolio/2010-web-isepci/2010-web-isepci-04.jpg</fourthsrc_17>
+        <fifthsrc_17>assets/images/portfolio/2010-web-isepci/2010-web-isepci-05.jpg</fifthsrc_17>
+        <modalyear_17>2010</modalyear_17>
+        <modalvolanta_17>WEB</modalvolanta_17>
+        <modaltitle_17>El Instituto de Investigación Social, Económica y Política Ciudadana  —ISEPCI— </modaltitle_17>
+        <modaltext_17>Nos convocan para desarrollar la página web institucional de ISEPCI.
+También desarrollamos la herramienta para que sea un sitio autoadministrable, diseñando una interface fácil e intuitiva.
+</modaltext_17>
+        <modalback_17>VOLVER</modalback_17>
+
+        <firstsrc_18>assets/images/portfolio/2009-edit-fcya-publicacion/2009-edit-fcya-publicacion-01.jpg</firstsrc_18>
+        <secondsrc_18>assets/images/portfolio/2009-edit-fcya-publicacion/2009-edit-fcya-publicacion-02.jpg</secondsrc_18>
+        <thirdsrc_18>assets/images/portfolio/2009-edit-fcya-publicacion/2009-edit-fcya-publicacion-03.jpg</thirdsrc_18>
+        <fourthsrc_18>assets/images/portfolio/2009-edit-fcya-publicacion/2009-edit-fcya-publicacion-04.jpg</fourthsrc_18>
+        <fifthsrc_18>assets/images/portfolio/2009-edit-fcya-publicacion/2009-edit-fcya-publicacion-05.jpg</fifthsrc_18>
+        <sixthsrc_18>assets/images/portfolio/2009-edit-fcya-publicacion/2009-edit-fcya-publicacion-06.jpg</sixthsrc_18>
+        <seventhsrc_18>assets/images/portfolio/2009-edit-fcya-publicacion/2009-edit-fcya-publicacion-07.jpg</seventhsrc_18>
+        <eightsrc_18>assets/images/portfolio/2009-edit-fcya-publicacion/2009-edit-fcya-publicacion-08.jpg</eightsrc_18>
+        <ninthsrc_18>assets/images/portfolio/2009-edit-fcya-publicacion/2009-edit-fcya-publicacion-09.jpg</ninthsrc_18>
+        <modalyear_18>2009</modalyear_18>
+        <modalvolanta_18>EDITORIAL</modalvolanta_18>
+        <modaltitle_18>Fundación C&amp;A</modaltitle_18>
+        <modaltext_18>Al cierre de la Fundación C&amp;A Argentina, decide hacer una publicación, contando sus experiencias en las distintas actividades desarrolladas durante los nueve años. Para ello diseñamos una publicación ágil, de doble lectura en sus dobles páginas. La idea fue que se pueda hacer una lectura rápida por medio de la información que hay en los laterales, que funciona como una síntesis del texto general.</modaltext_18>
+        <modalback_18>VOLVER</modalback_18>
+
+        <firstsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_01.jpg</firstsrc_19>
+        <secondsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_02.jpg</secondsrc_19>
+        <thirdsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_03.jpg</thirdsrc_19>
+        <fourthsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_04.jpg</fourthsrc_19>
+        <fifthsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_05.jpg</fifthsrc_19>
+        <sixthsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_06.jpg</sixthsrc_19>
+        <seventhsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_07.jpg</seventhsrc_19>
+        <eightsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_08.jpg</eightsrc_19>
+        <ninthsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_09.jpg</ninthsrc_19>
+        <tenthsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_10.jpg</tenthsrc_19>
+        <eleventhsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_11.jpg</eleventhsrc_19>
+        <twelvethsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_12.jpg</twelvethsrc_19>
+        <thirdteenthsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_13.jpg</thirdteenthsrc_19>
+        <fourteenthsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_14.jpg</fourteenthsrc_19>
+        <fifteenthsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_15.jpg</fifteenthsrc_19>
+        <sixteenthsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_16.jpg</sixteenthsrc_19>
+        <seventeenthsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_17.jpg</seventeenthsrc_19>
+        <eighteenthsrc_19>assets/images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_18.jpg</eighteenthsrc_19>
+        <modalyear_19>2009</modalyear_19>
+        <modalvolanta_19>EDITORIAL</modalvolanta_19>
+        <modaltitle_19>Fundación C&amp;A</modaltitle_19>
+        <modaltext_19>Por quinto año consecutivo, diseñamos y armamos la Agenda del Voluntariado de C&amp;A, para cada agenda se creaba un diseño pertinente a las necesidades a los ejes que deberían trabajar cada grupo de voluntarios en las organizaciones sociales de la comunidad.</modaltext_19>
+        <modalback_19>VOLVER</modalback_19>
+
+        <firstsrc_20>assets/images/portfolio/2007-edit-fcya-entrelazando-memorias/2007-edit-fcya-entrelazando-memorias_01.jpg</firstsrc_20>
+        <secondsrc_20>assets/images/portfolio/2007-edit-fcya-entrelazando-memorias/2007-edit-fcya-entrelazando-memorias_02.jpg</secondsrc_20>
+        <thirdsrc_20>assets/images/portfolio/2007-edit-fcya-entrelazando-memorias/2007-edit-fcya-entrelazando-memorias_03.jpg</thirdsrc_20>
+        <fourthsrc_20>assets/images/portfolio/2007-edit-fcya-entrelazando-memorias/2007-edit-fcya-entrelazando-memorias_04.jpg</fourthsrc_20>
+        <fifthsrc_20>assets/images/portfolio/2007-edit-fcya-entrelazando-memorias/2007-edit-fcya-entrelazando-memorias_05.jpg</fifthsrc_20>
+        <sixthsrc_20>assets/images/portfolio/2007-edit-fcya-entrelazando-memorias/2007-edit-fcya-entrelazando-memorias_06.jpg</sixthsrc_20>
+        <seventhsrc_20>assets/images/portfolio/2007-edit-fcya-entrelazando-memorias/2007-edit-fcya-entrelazando-memorias_07.jpg</seventhsrc_20>
+        <eightsrc_20>assets/images/portfolio/2007-edit-fcya-entrelazando-memorias/2007-edit-fcya-entrelazando-memorias_08.jpg</eightsrc_20>
+        <ninthsrc_20>assets/images/portfolio/2007-edit-fcya-entrelazando-memorias/2007-edit-fcya-entrelazando-memorias_09.jpg</ninthsrc_20>
+        <tenthsrc_20>assets/images/portfolio/2007-edit-fcya-entrelazando-memorias/2007-edit-fcya-entrelazando-memorias_10.jpg</tenthsrc_20>
+        <modalyear_20>2007</modalyear_20>
+        <modalvolanta_20>EDITORIAL</modalvolanta_20>
+        <modaltitle_20>Fundación C&amp;A</modaltitle_20>
+        <modaltext_20>Para la Convención de Voluntarios, se diseño la publicación Entrelazando Memorias, que consiste en un libro con los resultados de las actividades realizados por los distintos voluntarios de la Fundación. Este material se entregaba para que todos los voluntarios conozcan las actividades realizadas por otros grupos.</modaltext_20>
+        <modalback_20>VOLVER</modalback_20>
+
+        <firstsrc_21>assets/images/portfolio/2007-edit-cya-gerente/2007-edit-cya-gerente-01.jpg</firstsrc_21>
+        <secondsrc_21>assets/images/portfolio/2007-edit-cya-gerente/2007-edit-cya-gerente-02.jpg</secondsrc_21>
+        <thirdsrc_21>assets/images/portfolio/2007-edit-cya-gerente/2007-edit-cya-gerente-03.jpg</thirdsrc_21>
+        <fourthsrc_21>assets/images/portfolio/2007-edit-cya-gerente/2007-edit-cya-gerente-04.jpg</fourthsrc_21>
+        <fifthsrc_21>assets/images/portfolio/2007-edit-cya-gerente/2007-edit-cya-gerente-05.jpg</fifthsrc_21>
+        <sixthsrc_21>assets/images/portfolio/2007-edit-cya-gerente/2007-edit-cya-gerente-06.jpg</sixthsrc_21>
+        <seventhsrc_21>assets/images/portfolio/2007-edit-cya-gerente/2007-edit-cya-gerente-07.jpg</seventhsrc_21>
+        <eightsrc_21>assets/images/portfolio/2007-edit-cya-gerente/2007-edit-cya-gerente-08.jpg</eightsrc_21>
+        <ninthsrc_21>assets/images/portfolio/2007-edit-cya-gerente/2007-edit-cya-gerente-09.jpg</ninthsrc_21>
+        <modalyear_21>2007</modalyear_21>
+        <modalvolanta_21>EDITORIAL</modalvolanta_21>
+        <modaltitle_21>Fundación C&amp;A</modaltitle_21>
+        <modaltext_21>Entre los proyectos realizados a la Fundación C&amp;A, realizamos la publicación Comunidad. Guía de apoyo a los líderes, para las jornadas de Gerentes y contarles cuales fueron los ejes realizados por la Fundación.</modaltext_21>
+        <modalback_21>VOLVER</modalback_21>
+
+        <firstsrc_22>assets/images/portfolio/2003-07-edit-cya-rumbos/2003_07-edit-cya-rumbos-01.jpg</firstsrc_22>
+        <secondsrc_22>assets/images/portfolio/2003-07-edit-cya-rumbos/2003_07-edit-cya-rumbos-02.jpg</secondsrc_22>
+        <thirdsrc_22>assets/images/portfolio/2003-07-edit-cya-rumbos/2003_07-edit-cya-rumbos-03.jpg</thirdsrc_22>
+        <fourthsrc_22>assets/images/portfolio/2003-07-edit-cya-rumbos/2003_07-edit-cya-rumbos-04.jpg</fourthsrc_22>
+        <fifthsrc_22>assets/images/portfolio/2003-07-edit-cya-rumbos/2003_07-edit-cya-rumbos-05.jpg</fifthsrc_22>
+        <modalyear_22>2002</modalyear_22>
+        <modalvolanta_22>EDITORIAL</modalvolanta_22>
+        <modaltitle_22>Fundación C&amp;A</modaltitle_22>
+        <modaltext_22>Diseñamos y armamos por más de seis años el boletín trimestral Rumbos, para contar sobre las actividades de los voluntarios de la Fundación C&amp;A.</modaltext_22>
+        <modalback_22>VOLVER</modalback_22>
+
+        <firstsrc_23>assets/images/portfolio/2002-edit-ministerio-de-educacion/2002-web-diario-me-01.jpg</firstsrc_23>
+        <secondsrc_23>assets/images/portfolio/2002-edit-ministerio-de-educacion/2002-web-diario-me-02-TAPAS JUNTAS-02.jpg</secondsrc_23>
+        <thirdsrc_23>assets/images/portfolio/2002-edit-ministerio-de-educacion/2002-web-diario-me-03.jpg</thirdsrc_23>
+        <fourthsrc_23>assets/images/portfolio/2002-edit-ministerio-de-educacion/2002-web-diario-me-04.jpg</fourthsrc_23>
+        <fifthsrc_23>assets/images/portfolio/2002-edit-ministerio-de-educacion/2002-web-diario-me-05.jpg</fifthsrc_23>
+        <modalyear_23>2002</modalyear_23>
+        <modalvolanta_23>EDITORIAL</modalvolanta_23>
+        <modaltitle_23>Ministerio de Educación de la Nación</modaltitle_23>
+        <modaltext_23>El Ministerio de Educación en conjunto con la organización Edupas, nos encarga el diseño y armados de los suplementos con los contenidos de los NAPs, para comunicar los principales objetivos de aprendizaje de los alumnos de todo el país a los padres. Se buscó un lenguaje claro y lúdico.</modaltext_23>
+        <modalback_23>VOLVER</modalback_23>
     </data>
 </root>

@@ -8,7 +8,11 @@
             myFunction(this);
         }
     };
-    xhttp.open("GET", "assets/data/modal-es.xml", true);
+    if($('body').hasClass('en modal-open')){
+        xhttp.open("GET", "assets/data/modal-en.xml", true);
+    }else{
+        xhttp.open("GET", "assets/data/modal-es.xml", true);
+    };  
     xhttp.send();
 
     function myFunction(xml) {
@@ -16,16 +20,23 @@
         firstsrc_9 = xmlDoc.getElementsByTagName("firstsrc_9"),
         secondsrc_9 = xmlDoc.getElementsByTagName("secondsrc_9"),
         thirdsrc_9 = xmlDoc.getElementsByTagName("thirdsrc_9"),
+        fourthsrc_9 = xmlDoc.getElementsByTagName("fourthsrc_9"),
+        fifthsrc_9 = xmlDoc.getElementsByTagName("fifthsrc_9"),
         modalyear_9 = xmlDoc.getElementsByTagName("modalyear_9"),
         modalvolanta_9 = xmlDoc.getElementsByTagName("modalvolanta_9"),
         modaltitle_9 = xmlDoc.getElementsByTagName("modaltitle_9"),
         modaltext_9 = xmlDoc.getElementsByTagName("modaltext_9"),
         modalback_9 = xmlDoc.getElementsByTagName("modalback_9");          
+        insta = xmlDoc.getElementsByTagName("insta");
+        behance = xmlDoc.getElementsByTagName("behance");
 
-
+        $("[template='insta']").attr('href', insta[0].childNodes[0].nodeValue);
+        $("[template='behance']").attr('href', behance[0].childNodes[0].nodeValue);
         $("[template='firstsrc_9']").attr('src', firstsrc_9[0].childNodes[0].nodeValue);
         $("[template='secondsrc_9']").attr('src', secondsrc_9[0].childNodes[0].nodeValue);
         $("[template='thirdsrc_9']").attr('src', thirdsrc_9[0].childNodes[0].nodeValue);
+        $("[template='fourthsrc_9']").attr('src', fourthsrc_9[0].childNodes[0].nodeValue);
+        $("[template='fifthsrc_9']").attr('src', fifthsrc_9[0].childNodes[0].nodeValue);
         $("[template='modalyear_9']").html(modalyear_9[0].childNodes[0].nodeValue);
         $("[template='modalvolanta_9']").html(modalvolanta_9[0].childNodes[0].nodeValue);
         $("[template='modaltitle_9']").html(modaltitle_9[0].childNodes[0].nodeValue);
@@ -36,11 +47,15 @@
 </script>
 <div class="modal-content">
     <div class="modal-body">
-          <section>
-              <img class="image-modal" template="firstsrc_9">
-              <img class="image-modal" template="secondsrc_9">
-              <img class="image-modal" template="thirdsrc_9">
-          </section>
+            <section class="container-fluid">
+                    <div class="row">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="firstsrc_9">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="secondsrc_9">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="thirdsrc_9">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="fourthsrc_9">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="fifthsrc_9">
+                    </div>
+              </section>
 
           <section class="container">
               <div class="modal-text">
@@ -68,8 +83,8 @@
                         </div>
                         <div class="col-3 center-text heart-column align-bottom">
                             <div class="social">
-                                <a href="#"><img src="assets/images/insta.PNG"></a>
-                                <a href="#"><img src="assets/images/behance.PNG"></a>
+                                <a template="insta"><img src="assets/images/insta.PNG"></a>
+                                <a template="behance"><img src="assets/images/behance.PNG"></a>
                             </div>
                         </div>                                   
                     </article>

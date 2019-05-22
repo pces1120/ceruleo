@@ -8,7 +8,11 @@
             myFunction(this);
         }
     };
-    xhttp.open("GET", "assets/data/modal-es.xml", true);
+    if($('body').hasClass('en modal-open')){
+        xhttp.open("GET", "assets/data/modal-en.xml", true);
+    }else{
+        xhttp.open("GET", "assets/data/modal-es.xml", true);
+    };  
     xhttp.send();
 
     function myFunction(xml) {
@@ -16,16 +20,27 @@
         firstsrc_10 = xmlDoc.getElementsByTagName("firstsrc_10"),
         secondsrc_10 = xmlDoc.getElementsByTagName("secondsrc_10"),
         thirdsrc_10 = xmlDoc.getElementsByTagName("thirdsrc_10"),
+        fourthsrc_10 = xmlDoc.getElementsByTagName("fourthsrc_10"),
+        fifthsrc_10 = xmlDoc.getElementsByTagName("fifthsrc_10"),
+        sixthsrc_10 = xmlDoc.getElementsByTagName("sixthsrc_10"),
+        seventhsrc_10 = xmlDoc.getElementsByTagName("seventhsrc_10"),
         modalyear_10 = xmlDoc.getElementsByTagName("modalyear_10"),
         modalvolanta_10 = xmlDoc.getElementsByTagName("modalvolanta_10"),
         modaltitle_10 = xmlDoc.getElementsByTagName("modaltitle_10"),
         modaltext_10 = xmlDoc.getElementsByTagName("modaltext_10"),  
         modalback_10 = xmlDoc.getElementsByTagName("modalback_10");          
+        insta = xmlDoc.getElementsByTagName("insta");
+        behance = xmlDoc.getElementsByTagName("behance");
 
-
+        $("[template='insta']").attr('href', insta[0].childNodes[0].nodeValue);
+        $("[template='behance']").attr('href', behance[0].childNodes[0].nodeValue);
         $("[template='firstsrc_10']").attr('src', firstsrc_10[0].childNodes[0].nodeValue);
         $("[template='secondsrc_10']").attr('src', secondsrc_10[0].childNodes[0].nodeValue);
         $("[template='thirdsrc_10']").attr('src', thirdsrc_10[0].childNodes[0].nodeValue);
+        $("[template='fourthsrc_10']").attr('src', fourthsrc_10[0].childNodes[0].nodeValue);
+        $("[template='fifthsrc_10']").attr('src', fifthsrc_10[0].childNodes[0].nodeValue);
+        $("[template='sixthsrc_10']").attr('src', sixthsrc_10[0].childNodes[0].nodeValue);
+        $("[template='seventhsrc_10']").attr('src', seventhsrc_10[0].childNodes[0].nodeValue);
         $("[template='modalyear_10']").html(modalyear_10[0].childNodes[0].nodeValue);
         $("[template='modalvolanta_10']").html(modalvolanta_10[0].childNodes[0].nodeValue);
         $("[template='modaltitle_10']").html(modaltitle_10[0].childNodes[0].nodeValue);
@@ -36,11 +51,17 @@
 </script>
 <div class="modal-content">
     <div class="modal-body">
-          <section>
-              <img class="image-modal" template="firstsrc_10">
-              <img class="image-modal" template="secondsrc_10">
-              <img class="image-modal" template="thirdsrc_10">
-          </section>
+            <section class="container-fluid">
+                    <div class="row">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="firstsrc_10">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="secondsrc_10">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="thirdsrc_10">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="fourthsrc_10">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="fifthsrc_10">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="sixthsrc_10">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="seventhsrc_10">
+                    </div>
+              </section>
 
           <section class="container">
               <div class="modal-text">
@@ -68,8 +89,8 @@
                         </div>
                         <div class="col-3 center-text heart-column align-bottom">
                             <div class="social">
-                                <a href="#"><img src="assets/images/insta.PNG"></a>
-                                <a href="#"><img src="assets/images/behance.PNG"></a>
+                                <a template="insta"><img src="assets/images/insta.PNG"></a>
+                                <a template="behance"><img src="assets/images/behance.PNG"></a>
                             </div>
                         </div>                                   
                     </article>

@@ -8,7 +8,11 @@
             myFunction(this);
         }
     };
-    xhttp.open("GET", "assets/data/modal-es.xml", true);
+    if($('body').hasClass('en')){
+        xhttp.open("GET", "assets/data/modal-es.xml", true);
+    }else{
+        xhttp.open("GET", "assets/data/modal-en.xml", true);
+    };  
     xhttp.send();
 
     function myFunction(xml) {
@@ -21,7 +25,11 @@
         modaltitle_6 = xmlDoc.getElementsByTagName("modaltitle_6"),
         modaltext_6 = xmlDoc.getElementsByTagName("modaltext_6"),          
         modalback_6 = xmlDoc.getElementsByTagName("modalback_6");
+        insta = xmlDoc.getElementsByTagName("insta");
+        behance = xmlDoc.getElementsByTagName("behance");
 
+        $("[template='insta']").attr('href', insta[0].childNodes[0].nodeValue);
+        $("[template='behance']").attr('href', behance[0].childNodes[0].nodeValue);
         $("[template='firstsrc_6']").attr('src', firstsrc_6[0].childNodes[0].nodeValue);
         $("[template='secondsrc_6']").attr('src', secondsrc_6[0].childNodes[0].nodeValue);
         $("[template='thirdsrc_6']").attr('src', thirdsrc_6[0].childNodes[0].nodeValue);
@@ -35,11 +43,13 @@
 </script>
 <div class="modal-content">
     <div class="modal-body">
-          <section>
-              <img class="image-modal" template="firstsrc_6">
-              <img class="image-modal" template="secondsrc_6">
-              <img class="image-modal" template="thirdsrc_6">
-          </section>
+            <section class="container-fluid">
+                    <div class="row">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="firstsrc_6">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="secondsrc_6">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="thirdsrc_6">
+                    </div>
+            </section>
 
           <section class="container">
               <div class="modal-text">
@@ -67,8 +77,8 @@
                         </div>
                         <div class="col-3 center-text heart-column align-bottom">
                             <div class="social">
-                                <a href="#"><img src="assets/images/insta.PNG"></a>
-                                <a href="#"><img src="assets/images/behance.PNG"></a>
+                                <a template="insta"><img src="assets/images/insta.PNG"></a>
+                                <a template="behance"><img src="assets/images/behance.PNG"></a>
                             </div>
                         </div>                                   
                     </article>

@@ -1,0 +1,86 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+<script>
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            myFunction(this);
+        }
+    };
+    if($('body').hasClass('en modal-open')){
+        xhttp.open("GET", "assets/data/modal-en.xml", true);
+    }else{
+        xhttp.open("GET", "assets/data/modal-es.xml", true);
+    };  
+    xhttp.send();
+
+    function myFunction(xml) {
+        let xmlDoc = xml.responseXML,
+        firstsrc_15 = xmlDoc.getElementsByTagName("firstsrc_15"),
+        secondsrc_15 = xmlDoc.getElementsByTagName("secondsrc_15"),
+        modalyear_15 = xmlDoc.getElementsByTagName("modalyear_15"),
+        modalvolanta_15 = xmlDoc.getElementsByTagName("modalvolanta_15"),
+        modaltitle_15 = xmlDoc.getElementsByTagName("modaltitle_15"),
+        modaltext_15 = xmlDoc.getElementsByTagName("modaltext_15"),
+        modalback_15 = xmlDoc.getElementsByTagName("modalback_15");          
+        insta = xmlDoc.getElementsByTagName("insta");
+        behance = xmlDoc.getElementsByTagName("behance");
+
+        $("[template='insta']").attr('href', insta[0].childNodes[0].nodeValue);
+        $("[template='behance']").attr('href', behance[0].childNodes[0].nodeValue);
+        $("[template='firstsrc_15']").attr('src', firstsrc_15[0].childNodes[0].nodeValue);
+        $("[template='secondsrc_15']").attr('src', secondsrc_15[0].childNodes[0].nodeValue);
+        $("[template='modalyear_15']").html(modalyear_15[0].childNodes[0].nodeValue);
+        $("[template='modalvolanta_15']").html(modalvolanta_15[0].childNodes[0].nodeValue);
+        $("[template='modaltitle_15']").html(modaltitle_15[0].childNodes[0].nodeValue);
+        $("[template='modalback_15']").html(modalback_15[0].childNodes[0].nodeValue);
+        $("[template='modaltext_15']").html(modaltext_15[0].childNodes[0].nodeValue);
+        
+
+    }
+</script>
+<div class="modal-content">
+    <div class="modal-body">
+            <section class="container-fluid">
+                    <div class="row">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="firstsrc_15">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="secondsrc_15">
+                    </div>
+              </section>
+
+          <section class="container">
+              <div class="modal-text">
+                    <div class="partners">
+                        <article class="column-right">
+                            <div>
+                                <p class="black-text little bold-text center-text modal-year" template="modalyear_15">
+
+                                </p>
+                                <hr class="black-line">
+                            </div>
+                        </article>
+                        <article class="column-left">
+                            <p class="darkgrey-text role modal-volanta" template="modalvolanta_15"></p>
+                            <p class="darkgrey-text name modal-title" template="modaltitle_15"></p> 
+                            <p class="darkgrey-text description modal-desc" template="modaltext_15"></p>                                    
+                        </article>
+                    </div>
+                    <article class="row modalheader">
+                        <div class="col-9 align-bottom">
+                            <a class="goback" data-dismiss="modal">
+                                <img src="assets/images/back.png">
+                                <p class="black-text little bold-text" template="modalback_15"></p>
+                            </a>
+                        </div>
+                        <div class="col-3 center-text heart-column align-bottom">
+                            <div class="social">
+                                <a template="insta"><img src="assets/images/insta.PNG"></a>
+                                <a template="behance"><img src="assets/images/behance.PNG"></a>
+                            </div>
+                        </div>                                   
+                    </article>
+              </div>
+          </section>                  
+    </div>
+</div>

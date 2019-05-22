@@ -1,0 +1,134 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+<script>
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            myFunction(this);
+        }
+    };
+    if($('body').hasClass('en modal-open')){
+        xhttp.open("GET", "assets/data/modal-en.xml", true);
+    }else{
+        xhttp.open("GET", "assets/data/modal-es.xml", true);
+    };  
+    xhttp.send();
+
+    function myFunction(xml) {
+        let xmlDoc = xml.responseXML,
+        firstsrc_19 = xmlDoc.getElementsByTagName("firstsrc_19"),
+        secondsrc_19 = xmlDoc.getElementsByTagName("secondsrc_19"),
+        thirdsrc_19 = xmlDoc.getElementsByTagName("thirdsrc_19"),
+        fourthsrc_19 = xmlDoc.getElementsByTagName("fourthsrc_19"),
+        fifthsrc_19 = xmlDoc.getElementsByTagName("fifthsrc_19"),
+        sixthsrc_19 = xmlDoc.getElementsByTagName("sixthsrc_19"),
+        seventhsrc_19 = xmlDoc.getElementsByTagName("seventhsrc_19"),
+        eightsrc_19 = xmlDoc.getElementsByTagName("eightsrc_19"),
+        ninthsrc_19 = xmlDoc.getElementsByTagName("ninthsrc_19"),
+        tenthsrc_19 = xmlDoc.getElementsByTagName("tenthsrc_19"),
+        eleventhsrc_19 = xmlDoc.getElementsByTagName("eleventhsrc_19"),
+        twelvethsrc_19 = xmlDoc.getElementsByTagName("twelvethsrc_19"),
+        thirdteenthsrc_19 = xmlDoc.getElementsByTagName("thirdteenthsrc_19"),
+        fourteenthsrc_19 = xmlDoc.getElementsByTagName("fourteenthsrc_19"),
+        fifteenthsrc_19 = xmlDoc.getElementsByTagName("fifteenthsrc_19"),
+        sixteenthsrc_19 = xmlDoc.getElementsByTagName("sixteenthsrc_19"),
+        seventeenthsrc_19 = xmlDoc.getElementsByTagName("seventeenthsrc_19"),
+        eighteenthsrc_19 = xmlDoc.getElementsByTagName("eighteenthsrc_19"),
+        modalyear_19 = xmlDoc.getElementsByTagName("modalyear_19"),
+        modalvolanta_19 = xmlDoc.getElementsByTagName("modalvolanta_19"),
+        modaltitle_19 = xmlDoc.getElementsByTagName("modaltitle_19"),
+        modaltext_19 = xmlDoc.getElementsByTagName("modaltext_19"),
+        modalback_19 = xmlDoc.getElementsByTagName("modalback_19");          
+        insta = xmlDoc.getElementsByTagName("insta");
+        behance = xmlDoc.getElementsByTagName("behance");
+
+        $("[template='insta']").attr('href', insta[0].childNodes[0].nodeValue);
+        $("[template='behance']").attr('href', behance[0].childNodes[0].nodeValue);
+        $("[template='firstsrc_19']").attr('src', firstsrc_19[0].childNodes[0].nodeValue);
+        $("[template='secondsrc_19']").attr('src', secondsrc_19[0].childNodes[0].nodeValue);
+        $("[template='thirdsrc_19']").attr('src', thirdsrc_19[0].childNodes[0].nodeValue);
+        $("[template='fourthsrc_19']").attr('src', fourthsrc_19[0].childNodes[0].nodeValue);
+        $("[template='fifthsrc_19']").attr('src', fifthsrc_19[0].childNodes[0].nodeValue);
+        $("[template='sixthsrc_19']").attr('src', sixthsrc_19[0].childNodes[0].nodeValue);
+        $("[template='seventhsrc_19']").attr('src', seventhsrc_19[0].childNodes[0].nodeValue);
+        $("[template='eightsrc_19']").attr('src', eightsrc_19[0].childNodes[0].nodeValue);
+        $("[template='ninthsrc_19']").attr('src', ninthsrc_19[0].childNodes[0].nodeValue);
+        $("[template='tenthsrc_19']").attr('src', tenthsrc_19[0].childNodes[0].nodeValue);
+        $("[template='eleventhsrc_19']").attr('src', eleventhsrc_19[0].childNodes[0].nodeValue);
+        $("[template='twelvethsrc_19']").attr('src', twelvethsrc_19[0].childNodes[0].nodeValue);
+        $("[template='thirdteenthsrc_19']").attr('src', thirdteenthsrc_19[0].childNodes[0].nodeValue);
+        $("[template='fourteenthsrc_19']").attr('src', fourteenthsrc_19[0].childNodes[0].nodeValue);
+        $("[template='fifteenthsrc_19']").attr('src', fifteenthsrc_19[0].childNodes[0].nodeValue);
+        $("[template='sixteenthsrc_19']").attr('src', sixteenthsrc_19[0].childNodes[0].nodeValue);
+        $("[template='seventeenthsrc_19']").attr('src', seventeenthsrc_19[0].childNodes[0].nodeValue);
+        $("[template='eighteenthsrc_19']").attr('src', eighteenthsrc_19[0].childNodes[0].nodeValue);
+        $("[template='modalyear_19']").html(modalyear_19[0].childNodes[0].nodeValue);
+        $("[template='modalvolanta_19']").html(modalvolanta_19[0].childNodes[0].nodeValue);
+        $("[template='modaltitle_19']").html(modaltitle_19[0].childNodes[0].nodeValue);
+        $("[template='modalback_19']").html(modalback_19[0].childNodes[0].nodeValue);
+        $("[template='modaltext_19']").html(modaltext_19[0].childNodes[0].nodeValue);
+        
+
+    }
+</script>
+<div class="modal-content">
+    <div class="modal-body">
+            <section class="container-fluid">
+                    <div class="row">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="firstsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="secondsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="thirdsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="fourthsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="fifthsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="sixthsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="seventhsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="eightsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="ninthsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="tenthsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="eleventhsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="twelvethsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="thirdteenthsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="fourteenthsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="fifteenthsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="sixteenthsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="seventeenthsrc_19">
+                        <img class="image-modal image-mosaic col-sm-10 align-center" template="eighteenthsrc_19">
+                    </div>
+              </section>
+
+          <section class="container">
+              <div class="modal-text">
+                    <div class="partners">
+                        <article class="column-right">
+                            <div>
+                                <p class="black-text little bold-text center-text modal-year" template="modalyear_19">
+
+                                </p>
+                                <hr class="black-line">
+                            </div>
+                        </article>
+                        <article class="column-left">
+                            <p class="darkgrey-text role modal-volanta" template="modalvolanta_19"></p>
+                            <p class="darkgrey-text name modal-title" template="modaltitle_19"></p> 
+                            <p class="darkgrey-text description modal-desc" template="modaltext_19"></p>                                    
+                        </article>
+                    </div>
+                    <article class="row modalheader">
+                        <div class="col-9 align-bottom">
+                            <a class="goback" data-dismiss="modal">
+                                <img src="assets/images/back.png">
+                                <p class="black-text little bold-text" template="modalback_19"></p>
+                            </a>
+                        </div>
+                        <div class="col-3 center-text heart-column align-bottom">
+                            <div class="social">
+                                <a template="insta"><img src="assets/images/insta.PNG"></a>
+                                <a template="behance"><img src="assets/images/behance.PNG"></a>
+                            </div>
+                        </div>                                   
+                    </article>
+              </div>
+          </section>                  
+    </div>
+</div>

@@ -45,6 +45,9 @@ body{
 #first-section, #third-section, .nav-link span, footer{
     background-color: #008CCE;
 }
+#third-section{
+    background-image: url(../images/caratula_ceruleo-pupypablo.jpg)
+}
 .navbar{
     background-color: #008ACC;
     z-index: 1;
@@ -117,47 +120,86 @@ footer{
 .folios:hover, .goback:hover{
     cursor: pointer;
 }
-#folio-1,#folio-2,#folio-3,#folio-4,#folio-5,#folio-6,#folio-7,#folio-8,#folio-9,#folio-10,#folio-11,#folio-12 {
+#folio-1,#folio-2,#folio-3,#folio-4,#folio-5,#folio-6,#folio-7,#folio-8,#folio-9,#folio-10,#folio-11,#folio-12,
+#folio-13,#folio-14,#folio-15,#folio-16,#folio-17,#folio-18,#folio-19,#folio-20,#folio-21,#folio-22,#folio-23,#folio-24 {
     height: 12rem;
 }
 #folio-1{
-    background-image: url(../images/01.png);
+    background-image: url(../images/portfolio/2019-2000-ident-logos-varios/2019-200-identidad-logos-varios-00.jpg);
 }
 #folio-2{
-    background-image: url(../images/08.png);
+    background-image: url(../images/portfolio/2019-edit-catapulta-big/2019_catapulta_big_001.jpg);
 }
 #folio-3{
-    background-image: url(../images/02.png);
+    background-image: url(../images/portfolio/2018-EDIT-PP-En%20Orbita/2019-pp-areas.jpg);
 }
 #folio-4{
-    background-image: url(../images/03.png);
+    background-image: url(../images/portfolio/2018-EDIT-MODERNO-mastracchio/2018_moderno_mastracchio_012.jpg);
 }
 #folio-5{
-    background-image: url(../images/04.png);
-}
-#folio-6{
-    background-image: url(../images/05.png);
-}
-#folio-7{
-    background-image: url(../images/06.png);
-}
-#folio-8{
-    background-image: url(../images/07.png);
-}
-#folio-9{
-    background-image: url(../images/08.png);
-}
-#folio-10{
-    background-image: url(../images/03.png);
-}
-#folio-11{
     background-image: url(../images/02.png);
 }
-#folio-12{
+#folio-6{
     background-image: url(../images/01.png);
 }
+#folio-7{
+    background-image: url(../images/portfolio/2017-edit-kape-diccionarios/2017-edit-kape-diccionarios-01.jpg);
+}
+#folio-8{
+    background-image: url(../images/portfolio/2016-edit-kape-sumados/2016-edit-kape-sumados_01.jpg);
+}
+#folio-9{
+    background-image: url(../images/portfolio/2016-edit-pp-binarias/2016-edit-pp-binarias-len-01.jpg);
+}
+#folio-10{
+    background-image: url(../images/04.png);
+}
+#folio-11{
+    background-image: url(../images/03.png);
+}
+#folio-12{
+    background-image: url(../images/portfolio/2015-edit-henkel-catalogo/2015-edit-henkel-catalogo-01.jpg);
+}
+#folio-13{
+    background-image: url(../images/portfolio/2014-edit-pp-practi/2014-edit-pp-practi-l-00.jpg);
+}
+#folio-14{
+    background-image: url(../images/portfolio/2013-edit-penguin-los-nuevos-padres/2013-edit-penguin-los-nuevos-padres-01.jpg);
+}
+#folio-15{
+    background-image: url(../images/06.png);
+}
+#folio-16{
+    background-image: url(../images/portfolio/2012-ilustracion-henkel-remera/2012-ilustracion-henkel-remera-02.jpg);
+}
+#folio-17{
+    background-image: url(../images/portfolio/2012-edit-penguin-tapas/2015-edit-penguin-tapas-01.jpg);
+}
+#folio-18{
+    background-image: url(../images/portfolio/2010-web-isepci/2010-web-isepci-01.jpg);
+}
+#folio-19{
+    background-image: url(../images/07.png);
+}
+#folio-20{
+    background-image: url(../images/portfolio/2009-edit-fcya-agenda-voluntarios/2009-edit-fcya-agenda-voluntarios_01.jpg);
+}
+#folio-21{
+    background-image: url(../images/portfolio/2007-edit-fcya-entrelazando-memorias/2007-edit-fcya-entrelazando-memorias_01.jpg);
+}
+#folio-22{
+    background-image: url(../images/portfolio/2007-edit-cya-gerente/2007-edit-cya-gerente-01.jpg);
+}
+#folio-23{
+    background-image: url(../images/portfolio/2003-07-edit-cya-rumbos/2003_07-edit-cya-rumbos-01.jpg);
+}
+#folio-24{
+    background-image: url(../images/portfolio/2002-edit-ministerio-de-educacion/2002-web-diario-me-01.jpg);
+}
 #folio-1:hover, #folio-2:hover, #folio-3:hover, #folio-4:hover, #folio-5:hover, #folio-6:hover, 
-#folio-7:hover, #folio-8:hover, #folio-9:hover, #folio-10:hover, #folio-11:hover, #folio-12:hover{
+#folio-7:hover, #folio-8:hover, #folio-9:hover, #folio-10:hover, #folio-11:hover, #folio-12:hover,
+#folio-13:hover, #folio-14:hover, #folio-15:hover, #folio-16:hover, #folio-17:hover, #folio-18:hover, 
+#folio-19:hover, #folio-20:hover, #folio-21:hover, #folio-22:hover, #folio-23:hover, #folio-24:hover{
     background-color: #008CCE;
     background-image: none;
     transition: 0.4s;
@@ -193,7 +235,7 @@ hr.small-line{
     margin: 0;
 }
 .name{
-    font-size: 19px;
+    font-size: 16px;
     margin: 0;
 }
 .emailto{
@@ -254,6 +296,15 @@ hr.small-line{
 .partners .column-right div{
     top: 0px;
 }
+.modal-text .partners{
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+}
+.modal-text .partners .column-right{
+    top: 15px;
+    position: relative;
+}
 .heart{
     width: 90px;
     display: inline-block;
@@ -283,6 +334,10 @@ hr.small-line{
 .image-modal{
     width: 100%;
     height: auto;
+}
+.image-modal.image-mosaic{
+    height:60%;
+    padding: 4px 4px;
 }
 .modal-body{
     padding: 0;
